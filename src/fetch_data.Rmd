@@ -1,0 +1,67 @@
+---
+title: "Fetch invasive alien plants data from POV"
+author:
+- Damiano Oldoni
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+
+# Setup 
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = TRUE, message = TRUE)
+```
+
+Load libraries:
+
+```{r}
+library(httr) # generic webservice package
+library(ows4R) # interface for OGC webservices
+library(here) # to work with paths
+```
+
+# Fetch data from WFS
+
+WFS link:
+
+```{r link}
+wfs <- "http://geodiensten.oost-vlaanderen.be/arcgis/services/MIL/Waarnemingen_Public/MapServer/WFSServer"
+```
+
+Create WFS client:
+
+```{r create_client}
+pov_client <- ows4R::WFSClient$new(wfs, serviceVersion = "2.0.0")
+```
+
+Overview of the layers available:
+
+```{r layers}
+layers <- pov_client$getFeatureTypes(pretty = TRUE)
+print(layers)
+```
+
+Request data from layer `Waarnemingen_Public:Invasieve_uitheemse_soorten`:
+
+```{r request}
+url <- httr::parse_url(wfs)
+url$query <- list(service = "wfs",
+                  request = "GetFeature",
+                  typename = "Waarnemingen_Public:Invasieve_uitheemse_soorten",
+                  outputFormat = "CSV"
+)
+request <- httr::build_url(url)
+```
+
+Download requested data as csv file and save them in `invasieve_uitheemse_soorten.csv`:
+
+```{r download_data}
+file <- here::here("data", "raw", "invasieve_uitheemse_soorten.csv")
+httr::GET(url = request, write_disk(file, overwrite = TRUE))
+```
