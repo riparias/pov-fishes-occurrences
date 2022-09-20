@@ -62,6 +62,6 @@ request <- httr::build_url(url)
 Download requested data as csv file and save them in `invasieve_uitheemse_soorten.csv`:
 
 ```{r download_data}
-file <- here::here("data", "raw", "invasieve_uitheemse_soorten.csv")
+file <- here::here("data", "raw", "vissen_en_crustacea.csv")
 httr::GET(url = request, write_disk(file, overwrite = TRUE))
 ```
