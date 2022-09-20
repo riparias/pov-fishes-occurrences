@@ -47,7 +47,7 @@ layers <- pov_client$getFeatureTypes(pretty = TRUE)
 print(layers)
 ```
 
-Request data from layer `Waarnemingen_Public:Invasieve_uitheemse_soorten`:
+Request data from layer `Waarnemingen_Public:Vissen_en_crustacea`:
 
 ```{r request}
 url <- httr::parse_url(wfs)
@@ -59,7 +59,7 @@ url$query <- list(service = "wfs",
 request <- httr::build_url(url)
 ```
 
-Download requested data as csv file and save them in `invasieve_uitheemse_soorten.csv`:
+Download requested data as csv file and save them in `vissen_en_crustacea.csv`:
 
 ```{r download_data}
 file <- here::here("data", "raw", "vissen_en_crustacea.csv")
