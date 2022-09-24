@@ -1,6 +1,6 @@
 ---
 title: "Darwin Core mapping"
-subtitle: "For: Monitoring of invasive alien species by the Provincial Center of Environmental Research, Province East-Flanders, Belgium"
+subtitle: "For: Targeted monitoring of fishes and crustacea by the Provincial Center of Environmental Research, Province East-Flanders, Belgium"
 author:
 - Damiano Oldoni
 date: "`r Sys.Date()`"
@@ -22,21 +22,20 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = TRUE)
 Load libraries:
 
 ```{r message = FALSE}
-library(tidyverse)      # To do data science
+library(readr)          # To read data
+library(dplyr)          # To do data wrangling
 library(tidylog)        # To provide feedback on dplyr functions
 library(here)           # To find files
-library(janitor)        # To clean input data
-library(digest)         # To generate hashes
 library(sf)             # To convert coordinate systems
 ```
 
-## Read source data
+# Read source data
 
 Create a data frame `occurrences` from the source data:
 
 ```{r read_inputs}
 occurrences <- readr::read_csv(
-  file = here::here("data", "raw", "invasieve_uitheemse_soorten.csv")
+  file = here::here("data", "raw", "vissen_en_crustacea.csv")
 ) 
 ```
 
@@ -46,11 +45,11 @@ Preview data:
 occurrences %>% head(n = 5)
 ```
 
-# Change coordinate system
+## Change coordinate system
 
 Data are provided in Belgian Lambert72 ([EPSG 31370](https://epsg.io/31370)) coordinates. DwC accepts data in WGS84 ([EPSG 4326](https://epsg.io/4326)) only.
 
-```{r}
+```{r add_wgs84_coords}
 occurrences <- 
   occurrences %>% 
   st_as_sf(crs = st_crs(31370), wkt = "Shape") %>%
@@ -82,23 +81,45 @@ message("DONE")
 
 # Darwin Core mapping
 
+Create [Event](https://rs.gbif.org/core/dwc_event_2022-02-02.xml) core:
+
+```{r event}
+dwc_event_sql <- glue::glue_sql(
+  readr::read_file(here::here("sql", "dwc_event.sql")),
+  .con = con
+)
+dwc_event <- DBI::dbGetQuery(con, dwc_event_sql)
+```
+
 Create [Occurrence](https://rs.gbif.org/core/dwc_occurrence_2022-02-02.xml) extension:
 
 ```{r occurrence}
 message("Map occurrences to DwC...")
 dwc_occurrence_sql <- glue::glue_sql(
   readr::read_file(here::here("sql", "dwc_occurrence.sql")), 
-  .con = con)
+  .con = con
+)
 dwc_occurrence <- DBI::dbGetQuery(con, dwc_occurrence_sql)
 message("DONE")
+```
+
+Create [Measurement Or Facts](https://rs.gbif.org/extension/dwc/measurements_or_facts_2022-02-02.xml) extension:
+
+```{r mof}
+dwc_mof_sql <- glue::glue_sql(
+  readr::read_file(here::here("sql", "dwc_mof.sql")), 
+  .con = con
+)
+dwc_mof <- DBI::dbGetQuery(con, dwc_mof_sql)
 ```
 
 # Save data to CSV
 
 ```{r save_csv}
-readr::write_csv(
-  dwc_occurrence,
-  here::here("data", "processed", "occurrence.csv"),
+write_csv(dwc_event, here::here("data", "processed", "event.csv"), na = "")
+write_csv(
+  dwc_occurrence, here::here("data", "processed", "occurrence.csv"),
   na = ""
 )
+write_csv(dwc_mof, here::here("data", "processed", "mof.csv"), na = "")
 ```

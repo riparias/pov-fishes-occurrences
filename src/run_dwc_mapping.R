@@ -1,11 +1,3 @@
-#' R code to automatically run all chunks of dwc_mapping.Rmd
-
-# load required packages (install them if needed)
-installed <- rownames(installed.packages())
-required <- c("knitr")
-if (!all(required %in% installed)) {
-  install.packages(required[!required %in% installed])
-}
 library(knitr)
 
 # create temporary R file
