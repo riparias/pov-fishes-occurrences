@@ -12,7 +12,6 @@ SELECT
   ''                                    AS datasetID,
   'POV'                                 AS institutionCode,
   'Targeted monitoring of fishes and crustacea by the Provincial Center of Environmental Research, Province East-Flanders, Belgium' AS datasetName,
-  'HumanObservation'                    AS basisOfRecord,
   o."SamplingProtocol"                  AS samplingProtocol, -- targeted monitoring
 -- EVENT
   o."ObservationIdentifier"             AS eventID,
