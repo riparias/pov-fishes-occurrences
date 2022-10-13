@@ -1,7 +1,6 @@
 # load packages
 library(here)
 library(readr)
-library(dplyr)
 library(testthat)
 
 # read proposed new version of the DwC mapping
@@ -40,7 +39,7 @@ testthat::test_that("Right columns in right order: event core", {
     "verbatimLongitude",
     "verbatimSRS"
   )
-  testthat::expect_equal(names(dwc_occurrence), columns_occurrence)
+  testthat::expect_equal(names(dwc_occurrence), columns_event)
 })
 
 testthat::test_that("eventID is always present and is unique", {
@@ -111,7 +110,7 @@ testthat::test_that("Right columns in right order: occurrence extension", {
     "kingdom",
     "vernacularName"
   )
-  testthat::expect_equal(names(dwc_event), columns_event)
+  testthat::expect_equal(names(dwc_occurrence), columns_occurrence)
 })
 
 testthat::test_that("occurrenceID is always present and is unique", {
@@ -249,4 +248,61 @@ testthat::test_that("Right columns in right order: mof extension", {
   testthat::expect_equal(names(dwc_mof), columns_mof)
 })
 
-# FROM HERE
+testthat::test_that("eventID is always present and is unique", {
+  testthat::expect_true(all(!is.na(dwc_mof$eventID)))
+})
+
+testthat::test_that("all eventID values are in event core but not viceversa", {
+  testthat::expect_true(
+    all(dwc_mof$eventID %in% dwc_event$eventID)
+  )
+  testthat::expect_false(
+    all(dwc_event$eventID %in% dwc_mof$eventID)
+  )
+})
+
+testthat::test_that("measurementType always filled in and one of the list", {
+  types <- c(
+    "dissolved oxygen",
+    "electrical conductivity",
+    "length",
+    "oxygen saturation",
+    "pH",
+    "temperature",
+    "weight"
+  )
+  testthat::expect_true(
+    all(!is.na(dwc_mof$measurementType))
+  )
+  testthat::expect_equal(sort(unique(dwc_mof$measurementType)), types)
+})
+
+testthat::test_that("measurementType always filled in and one of the list", {
+  types <- c(
+    "dissolved oxygen",
+    "electrical conductivity",
+    "length",
+    "oxygen saturation",
+    "pH",
+    "temperature",
+    "weight"
+  )
+  testthat::expect_true(all(!is.na(dwc_mof$measurementType)))
+  testthat::expect_equal(sort(unique(dwc_mof$measurementType)), types)
+})
+
+testthat::test_that("measurementValue always filled in and positive", {
+  testthat::expect_true(all(!is.na(dwc_mof$measurementValue)))
+  testthat::expect_true(all(as.numeric(dwc_mof$measurementValue) > 0))
+})
+
+testthat::test_that(
+  "measurementUnit always filled in except for pH and one of the list", {
+    units <- c("%", "°C", "µS/cm", "cm", "g", "mg/L")
+    dwc_mof_without_pH <-  dwc_mof[dwc_mof$measurementType !="pH",]
+    testthat::expect_true(all(!is.na(dwc_mof_without_pH$measurementUnit)))
+    testthat::expect_equal(
+      sort(unique(dwc_mof_without_pH$measurementUnit)), units
+    )
+  }
+)
