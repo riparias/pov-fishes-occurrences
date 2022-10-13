@@ -31,7 +31,7 @@ UNION
 SELECT
   o."ObservationIdentifier"             AS eventID,
   'pH'                                  AS measurementType,
-  printf('%.1f', ROUND(o."pH", 1))      AS measurementValue,
+  printf('%.1f', ROUND(o."pH", 2))      AS measurementValue, -- pH has 2 decimals precision
   NULL                                  AS measurementUnit
 FROM occurrences AS o
 WHERE CAST(o."pH" AS NUMERIC) > 0
