@@ -1,0 +1,68 @@
+on:
+  push:
+    branches:
+      - 'automatic**'
+
+name: mapping and testing
+
+jobs:
+  mapping:
+    runs-on: ${{ matrix.config.os }}
+
+    name: ${{ matrix.config.os }} (${{ matrix.config.r }})
+
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - {os: ubuntu-latest,   r: 'release'}
+    env:
+      R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+      RSPM: ${{ matrix.config.rspm }}
+      GITHUB_PAT: ${{ secrets.WORKFLOWS }}
+      GITHUB_TOKEN: ${{ secrets.WORKFLOWS }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2.3.4
+
+      - name: Get branch name
+        run: |
+          git branch --show-current
+      - name: Setup R
+        uses: r-lib/actions/setup-r@master
+        with:
+          r-version: ${{ matrix.config.r }}
+          http-user-agent: ${{ matrix.config.http-user-agent }}
+
+      - name: Setup pandoc
+        uses: r-lib/actions/setup-pandoc@master
+
+      - name: Install linux libraries
+        run: |
+          sudo apt install libsodium-dev
+          sudo apt-get install libcurl4-openssl-dev
+          sudo apt-get install libgdal-dev libproj-dev
+          sudo apt install libudunits2-dev
+
+      - name: Install R packages
+        run: |
+          source("src/install_packages.R")
+        shell: Rscript {0}
+
+      - name: Mapping to DwC
+        run: |
+          source("src/run_dwc_mapping.R")
+        shell: Rscript {0}
+
+      - name: Commit and push changes
+        uses: devops-infra/action-commit-push@master
+        with:
+          github_token: ${{ secrets.WORKFLOWS }}
+          commit_prefix: "[AUTO]"
+          commit_message: "Mapping"
+
+      - name: Run tests
+        run: |
+          source("tests/test_dwc_occurrence.R")
+        shell: Rscript {0}

@@ -1,5 +1,6 @@
 [![funding](https://img.shields.io/static/v1?label=published+through&message=LIFE+RIPARIAS&labelColor=00a58d&color=ffffff)](https://www.riparias.be/)
 [![fetch-data](https://github.com/riparias/pov-fishes-occurrences/actions/workflows/fetch-data.yaml/badge.svg)](https://github.com/riparias/pov-fishes-occurrences/actions/workflows/fetch-data.yaml)
+[![mapping and testing](https://github.com/riparias/pov-fishes-occurrences/actions/workflows/mapping_and_testing.yaml/badge.svg)](https://github.com/riparias/pov-fishes-occurrences/actions/workflows/mapping_and_testing.yaml)
 
 ## Rationale
 
@@ -7,7 +8,7 @@ This repository contains the functionality to standardize the fishes and crayfis
 
 ## Workflow
 
-[fetch data](src/fetch_data.Rmd) from WFS → save them as local [source data](data/raw) → Darwin Core [mapping script](src/dwc_mapping.Rmd) → generated [Darwin Core files](data/processed)
+[fetch data](https://github.com/riparias/pov-fishes-occurrences/tree/main/src/fetch_data.Rmd) from WFS → save them as local [source data](https://github.com/riparias/pov-fishes-occurrences/tree/main/data/raw) → Darwin Core [mapping script](https://github.com/riparias/pov-fishes-occurrences/tree/main/src/dwc_mapping.Rmd) → generated [Darwin Core files](https://github.com/riparias/pov-fishes-occurrences/tree/main/data/processed)
 
 
 ## Published dataset
@@ -39,11 +40,12 @@ The repository structure is based on [Cookiecutter Data Science](http://drivenda
 │   └── install_packages.R : R script to install all needed packages
 |
 ├── sql                    : Darwin Core transformations
-│   └── dwc_occurrence.sql
+│   └── dwc_event.sql
+│   ├── dwc_occurrence.sql
+│   └── dwc_mof.sql
 │   
 └── data
 │   ├── raw                : Fetched data
-│   ├── interim            : sqlite database
 │   └── processed          : Darwin Core output of mapping script GENERATED
 ```
 
