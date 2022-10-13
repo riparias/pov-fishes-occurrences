@@ -8,7 +8,7 @@ This repository contains the functionality to standardize the fishes and crayfis
 
 ## Workflow
 
-[fetch data](src/fetch_data.Rmd) from WFS → save them as local [source data](data/raw) → Darwin Core [mapping script](src/dwc_mapping.Rmd) → generated [Darwin Core files](data/processed)
+[fetch data](https://github.com/riparias/pov-fishes-occurrences/tree/main/src/fetch_data.Rmd) from WFS → save them as local [source data](https://github.com/riparias/pov-fishes-occurrences/tree/main/data/raw) → Darwin Core [mapping script](https://github.com/riparias/pov-fishes-occurrences/tree/main/src/dwc_mapping.Rmd) → generated [Darwin Core files](https://github.com/riparias/pov-fishes-occurrences/tree/main/data/processed)
 
 
 ## Published dataset
