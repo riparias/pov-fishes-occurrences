@@ -45,7 +45,6 @@ The repository structure is based on [Cookiecutter Data Science](http://drivenda
 │   
 └── data
 │   ├── raw                : Fetched data
-│   ├── interim            : sqlite database GENERATED
 │   └── processed          : Darwin Core output of mapping script GENERATED
 ```
 
