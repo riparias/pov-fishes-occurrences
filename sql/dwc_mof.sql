@@ -10,7 +10,7 @@ SELECT
   o."LengtSpecimen_Cm"                  AS measurementValue,
   'cm'                                  AS measurementUnit
 FROM occurrences AS o
-WHERE o."LengtSpecimen_Cm" > 0
+WHERE CAST(o."LengtSpecimen_Cm" AS NUMERIC) > 0
 
 UNION
 
@@ -22,7 +22,7 @@ SELECT
   o."WeightSpecimen_Gram"               AS measurementValue,
   'g'                                   AS measurementUnit
 FROM occurrences AS o
-WHERE o."WeightSpecimen_Gram" > 0
+WHERE CAST(o."WeightSpecimen_Gram" AS NUMERIC) > 0
 
 UNION
 
@@ -34,7 +34,7 @@ SELECT
   o."pH"                                AS measurementValue,
   NULL                                  AS measurementUnit
 FROM occurrences AS o
-WHERE o."pH" > 0
+WHERE CAST(o."pH" AS NUMERIC) > 0
 
 UNION
 
@@ -46,7 +46,7 @@ SELECT
   o."Oxygen_MgPerL"                     AS measurementValue,
   'mg/L'                                AS measurementUnit
 FROM occurrences AS o
-WHERE o."Oxygen_MgPerL" > 0
+WHERE CAST(o."Oxygen_MgPerL" AS NUMERIC) > 0
 
 UNION
 
@@ -58,7 +58,7 @@ SELECT
   o."Oxygen_PercentSaturation"          AS measurementValue,
   '%'                                   AS measurementUnit
 FROM occurrences AS o
-WHERE o."Oxygen_PercentSaturation" > 0
+WHERE CAST(o."Oxygen_PercentSaturation" AS NUMERIC) > 0
 
 UNION
 
@@ -70,7 +70,7 @@ SELECT
   o."Conductivity_MicroSPerCm"          AS measurementValue,
   'µS/cm'                               AS measurementUnit
 FROM occurrences AS o
-WHERE o."Conductivity_MicroSPerCm" > 50 -- value 8 is a measurement error
+WHERE CAST(o."Conductivity_MicroSPerCm" AS NUMERIC) > 50 -- value 8 is a measurement error
 
 UNION
 
@@ -82,4 +82,4 @@ SELECT
   o."Temperature_Celsius"               AS measurementValue,
   '°C'                                AS measurementUnit
 FROM occurrences AS o
-WHERE o."Temperature_Celsius" > 0
+WHERE CAST(o."Temperature_Celsius" AS NUMERIC) > 0
