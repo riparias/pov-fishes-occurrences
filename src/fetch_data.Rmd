@@ -18,7 +18,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE, warning = TRUE, message = TRUE)
 ```
 
-Load libraries:
+Load packages:
 
 ```{r}
 library(httr) # generic webservice package
