@@ -7,7 +7,7 @@ Created by Damiano Oldoni (INBO)
 SELECT
   o."ObservationIdentifier"             AS eventID,
   'length'                              AS measurementType,
-  o."LengtSpecimen_Cm"                  AS measurementValue,
+  printf('%.1f', ROUND(o."LengtSpecimen_Cm", 1)) AS measurementValue,
   'cm'                                  AS measurementUnit
 FROM occurrences AS o
 WHERE CAST(o."LengtSpecimen_Cm" AS NUMERIC) > 0
@@ -19,7 +19,7 @@ UNION
 SELECT
   o."ObservationIdentifier"             AS eventID,
   'weight'                              AS measurementType,
-  o."WeightSpecimen_Gram"               AS measurementValue,
+  printf('%.1f', ROUND(o."WeightSpecimen_Gram", 1)) AS measurementValue,
   'g'                                   AS measurementUnit
 FROM occurrences AS o
 WHERE CAST(o."WeightSpecimen_Gram" AS NUMERIC) > 0
@@ -31,7 +31,7 @@ UNION
 SELECT
   o."ObservationIdentifier"             AS eventID,
   'pH'                                  AS measurementType,
-  o."pH"                                AS measurementValue,
+  printf('%.1f', ROUND(o."pH", 1))      AS measurementValue,
   NULL                                  AS measurementUnit
 FROM occurrences AS o
 WHERE CAST(o."pH" AS NUMERIC) > 0
@@ -43,7 +43,7 @@ UNION
 SELECT
   o."ObservationIdentifier"             AS eventID,
   'dissolved oxygen'                    AS measurementType,
-  o."Oxygen_MgPerL"                     AS measurementValue,
+  printf('%.1f', ROUND(o."Oxygen_MgPerL", 1)) AS measurementValue,
   'mg/L'                                AS measurementUnit
 FROM occurrences AS o
 WHERE CAST(o."Oxygen_MgPerL" AS NUMERIC) > 0
@@ -55,7 +55,7 @@ UNION
 SELECT
   o."ObservationIdentifier"             AS eventID,
   'oxygen saturation'                   AS measurementType,
-  o."Oxygen_PercentSaturation"          AS measurementValue,
+  printf('%.1f', ROUND(o."Oxygen_PercentSaturation", 1)) AS measurementValue,
   '%'                                   AS measurementUnit
 FROM occurrences AS o
 WHERE CAST(o."Oxygen_PercentSaturation" AS NUMERIC) > 0
@@ -67,7 +67,7 @@ UNION
 SELECT
   o."ObservationIdentifier"             AS eventID,
   'electrical conductivity'             AS measurementType,
-  o."Conductivity_MicroSPerCm"          AS measurementValue,
+  printf('%.1f', ROUND(o."Conductivity_MicroSPerCm", 1)) AS measurementValue,
   'µS/cm'                               AS measurementUnit
 FROM occurrences AS o
 WHERE CAST(o."Conductivity_MicroSPerCm" AS NUMERIC) > 50 -- value 8 is a measurement error
@@ -79,7 +79,7 @@ UNION
 SELECT
   o."ObservationIdentifier"             AS eventID,
   'temperature'                         AS measurementType,
-  o."Temperature_Celsius"               AS measurementValue,
+  printf('%.1f', ROUND(o."Temperature_Celsius", 1)) AS measurementValue,
   '°C'                                AS measurementUnit
 FROM occurrences AS o
 WHERE CAST(o."Temperature_Celsius" AS NUMERIC) > 0
