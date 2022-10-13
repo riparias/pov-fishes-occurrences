@@ -39,11 +39,13 @@ The repository structure is based on [Cookiecutter Data Science](http://drivenda
 │   └── install_packages.R : R script to install all needed packages
 |
 ├── sql                    : Darwin Core transformations
-│   └── dwc_occurrence.sql
+│   └── dwc_event.sql
+│   ├── dwc_occurrence.sql
+│   └── dwc_mof.sql
 │   
 └── data
 │   ├── raw                : Fetched data
-│   ├── interim            : sqlite database
+│   ├── interim            : sqlite database GENERATED
 │   └── processed          : Darwin Core output of mapping script GENERATED
 ```
 
