@@ -1,0 +1,252 @@
+# load packages
+library(here)
+library(readr)
+library(dplyr)
+library(testthat)
+
+# read proposed new version of the DwC mapping
+event_path <- here::here("data", "processed", "event.csv")
+dwc_event <- readr::read_csv(event_path, guess_max = 10000)
+occ_path <- here::here("data", "processed", "occurrence.csv")
+dwc_occurrence <- readr::read_csv(occ_path, guess_max = 10000)
+mof_path <- here::here("data", "processed", "mof.csv")
+dwc_mof <- readr::read_csv(mof_path, guess_max = 10000)
+
+# test event core
+testthat::test_that("Right columns in right order: event core", {
+  columns_event <- c(
+    "type",
+    "language",
+    "license",
+    "rightsHolder",
+    "accessRights",
+    "datasetID",
+    "institutionCode",
+    "datasetName",
+    "basisOfRecord",
+    "samplingProtocol",
+    "eventID",
+    "eventDate",
+    "continent",
+    "countryCode",
+    "waterBody",
+    "stateProvince",
+    "locationRemarks",
+    "decimalLatitude",
+    "decimalLongitude",
+    "geodeticDatum",
+    "coordinateUncertaintyInMeters",
+    "verbatimLatitude",
+    "verbatimLongitude",
+    "verbatimSRS"
+  )
+  testthat::expect_equal(names(dwc_occurrence), columns_occurrence)
+})
+
+testthat::test_that("eventID is always present and is unique", {
+  testthat::expect_true(all(!is.na(dwc_event$eventID)))
+  testthat::expect_equal(length(unique(dwc_event$eventID)),
+                         nrow(dwc_event))
+})
+
+testthat::test_that("eventDate is always filled in", {
+  testthat::expect_true(all(!is.na(dwc_event$eventDate)))
+})
+
+testthat::test_that("samplingProtocol is always equal to targeted monitoring", {
+  testthat::expect_true(all(!is.na(dwc_event$samplingProtocol)))
+  testthat::expect_equal(
+    unique(dwc_event$samplingProtocol), "targeted monitoring"
+  )
+})
+
+testthat::test_that("decimalLatitude is always filled in", {
+  testthat::expect_true(all(!is.na(dwc_event$decimalLatitude)))
+})
+
+testthat::test_that("decimalLatitude is within Flemish boundaries", {
+  testthat::expect_true(all(dwc_event$decimalLatitude < 51.65))
+  testthat::expect_true(all(dwc_event$decimalLatitude > 50.63))
+})
+
+testthat::test_that("decimalLongitude is always filled in", {
+  testthat::expect_true(all(!is.na(dwc_event$decimalLongitude)))
+})
+
+testthat::test_that("decimalLongitude is within Flemish boundaries", {
+  testthat::expect_true(all(dwc_event$decimalLongitude < 5.95))
+  testthat::expect_true(all(dwc_event$decimalLongitude > 2.450))
+})
+
+testthat::test_that("coordinateUncertainty is always present and positive", {
+  testthat::expect_true(all(!is.na(dwc_event$coordinateUncertaintyInMeters)))
+  testthat::expect_true(all(as.numeric(dwc_event$coordinateUncertaintyInMeters) > 0))
+})
+
+testthat::test_that("verbatimLatitude is always filled in", {
+  testthat::expect_true(all(!is.na(dwc_event$verbatimLatitude)))
+})
+
+testthat::test_that("verbatimLongitude is always filled in", {
+  testthat::expect_true(all(!is.na(dwc_event$verbatimLongitude)))
+})
+
+testthat::test_that("verbatim coordinates are always positive", {
+  # verbatimLatitude
+  testthat::expect_true(all(dwc_event$verbatimLatitude > 0))
+  # verbatimLongitude
+  testthat::expect_true(all(dwc_event$verbatimLongitude > 0))
+})
+
+# occurrence extension
+
+testthat::test_that("Right columns in right order: occurrence extension", {
+  columns_occurrence <- c(
+    "eventID",
+    "basisOfRecord",
+    "occurrenceID",
+    "individualCount",
+    "identificationVerificationStatus",
+    "scientificName",
+    "kingdom",
+    "vernacularName"
+  )
+  testthat::expect_equal(names(dwc_event), columns_event)
+})
+
+testthat::test_that("occurrenceID is always present and is unique", {
+  testthat::expect_true(all(!is.na(dwc_occurrence$occurrenceID)))
+  testthat::expect_equal(length(unique(dwc_occurrence$occurrenceID)),
+                         nrow(dwc_occurrence))
+})
+
+testthat::test_that("all eventID values are in occurrenceID and viceversa", {
+  testthat::expect_true(
+    all(dwc_event$eventID %in% dwc_occurrence$occurrenceID)
+  )
+  testthat::expect_true(
+    all(dwc_occurrence$occurrenceID %in% dwc_event$eventID)
+  )
+})
+
+testthat::test_that(
+  "identificationVerificationStatus is always equal to verified by experts", {
+    testthat::expect_true(
+      all(dwc_occurrence$identificationVerificationStatus == "verified by experts")
+    )
+})
+
+testthat::test_that("basisOfRecord is always HumanObservation", {
+  testthat::expect_equal(
+    unique(dwc_occurrence$basisOfRecord), "HumanObservation"
+  )
+})
+
+testthat::test_that(
+  "individualCount is always an integer greater than 0", {
+    testthat::expect_true(all(as.integer(dwc_occurrence$individualCount) > 0))
+})
+
+testthat::test_that("scientificName is never NA and one of the list", {
+  species <- c(
+    "Rutilus rutilus",
+    "Scardinius erythrophthalmus",
+    "Abramis bjoerkna",
+    "Tinca tinca",
+    "Esox lucius",
+    "Abramis Brama",
+    "Perca fluviatilis",
+    "Gasterosteus aculeatus",
+    "Pungitius pungitius",
+    "Carassius auratus gibelio",
+    "Cyprinus carpio",
+    "Gobio gobio",
+    "Carassius auratus auratus",
+    "Pseudorasbora parva",
+    "Oncorhynchus mykiss",
+    "Pimephales promelas",
+    "Gymnocephalus cernua",
+    "Neogobius melanostomus",
+    "Stizostedion lucoperca",
+    "Lepomis gibbosus",
+    "Solea solea",
+    "Carassius carassius",
+    "Ctenopharyngodon idella",
+    "Hypophthalmichthys molitrix",
+    "Dicentrarchus labrax",
+    "Procambarus clarkii",
+    "Eriocheir sinensis",
+    "Pleuronectes platessa",
+    "Pomatoschistus minutus",
+    "Aspius aspius",
+    "Faxonius limosus",
+    "Lithobates catesbeianus",
+    "Anarhichas lupus"
+  )
+  testthat::expect_true(all(!is.na(dwc_occurrence$scientificName)))
+  testthat::expect_true(all(dwc_occurrence$scientificName %in% species))
+})
+
+testthat::test_that("kingdom is always equal to Animalia", {
+  testthat::expect_true(all(!is.na(dwc_occurrence$kingdom)))
+  testthat::expect_true(all(dwc_occurrence$kingdom == "Animalia"))
+})
+
+testthat::test_that(
+  "vernacularName is never NA and one of the list", {
+    vernacular_names <- c(
+      "blankvoorn",
+      "rietvoorn",
+      "kolblei",
+      "zeelt",
+      "snoek",
+      "brasem",
+      "baars",
+      "driedoornige stekelbaars",
+      "tiendoornige stekelbaars",
+      "giebel",
+      "karper",
+      "riviergrondel",
+      "goudvis",
+      "blauwbandgrondel",
+      "regenboogforel",
+      "dikkopelrits",
+      "pos",
+      "zwartbekgrondel",
+      "snoekbaars",
+      "zonnebaars",
+      "tong",
+      "kroeskarper",
+      "graskarper",
+      "zilverkarper",
+      "zeebaars",
+      "rode Amerikaanse rivierkreeft",
+      "Chinese wolhandkrab",
+      "schol",
+      "dikkopje",
+      "roofblei",
+      "gevlekte Amerikaanse rivierkreeft",
+      "Amerikaanse stierkikker",
+      "Europese meerval"
+    )
+    testthat::expect_true(
+      all(!is.na(dwc_occurrence$vernacularName))
+    )
+    testthat::expect_true(
+      all(dwc_occurrence$vernacularName %in% vernacular_names)
+    )
+})
+
+# mof extension
+
+testthat::test_that("Right columns in right order: mof extension", {
+  columns_mof <- c(
+    "eventID",
+    "measurementType",
+    "measurementValue",
+    "measurementUnit"
+  )
+  testthat::expect_equal(names(dwc_mof), columns_mof)
+})
+
+# FROM HERE
