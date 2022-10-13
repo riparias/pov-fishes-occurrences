@@ -19,7 +19,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = TRUE)
 ```
 
-Load libraries:
+Load packages:
 
 ```{r message = FALSE}
 library(readr)          # To read data
@@ -35,7 +35,8 @@ Create a data frame `occurrences` from the source data:
 
 ```{r read_inputs}
 occurrences <- readr::read_csv(
-  file = here::here("data", "raw", "vissen_en_crustacea.csv")
+  file = here::here("data", "raw", "vissen_en_crustacea.csv"),
+  col_types = cols(.default = col_character())
 ) 
 ```
 
@@ -54,11 +55,11 @@ occurrences <-
   occurrences %>% 
   st_as_sf(crs = st_crs(31370), wkt = "Shape") %>%
   st_transform(crs = 4326)
-coords <- dplyr::as_tibble(st_coordinates(occurrences))
+coords <- as_tibble(st_coordinates(occurrences))
 occurrences <- 
-  dplyr::as_tibble(occurrences) %>% 
-  dplyr::bind_cols(coords) %>%
-  dplyr::select(-.data$Shape)
+  as_tibble(occurrences) %>% 
+  bind_cols(coords) %>%
+  select(-.data$Shape)
 ```
 
 Preview:
@@ -112,6 +113,13 @@ dwc_mof_sql <- glue::glue_sql(
 )
 dwc_mof <- DBI::dbGetQuery(con, dwc_mof_sql)
 ```
+
+Disconnect from SQLite database:
+
+```{r disconnect}
+DBI::dbDisconnect(con)
+```
+
 
 # Save data to CSV
 
