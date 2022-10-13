@@ -24,6 +24,8 @@ testthat::test_that("Right columns in right order: event core", {
     "datasetName",
     "basisOfRecord",
     "samplingProtocol",
+    "sampleSizeValue",
+    "sampleSizeUnit",
     "eventID",
     "eventDate",
     "continent",
@@ -39,7 +41,7 @@ testthat::test_that("Right columns in right order: event core", {
     "verbatimLongitude",
     "verbatimSRS"
   )
-  testthat::expect_equal(names(dwc_occurrence), columns_event)
+  testthat::expect_equal(names(dwc_event), columns_event)
 })
 
 testthat::test_that("eventID is always present and is unique", {
