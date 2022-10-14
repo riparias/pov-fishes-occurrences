@@ -14,8 +14,6 @@ SELECT
   'Targeted monitoring of fishes and crustacea by the Provincial Center of Environmental Research, Province East-Flanders, Belgium' AS datasetName,
   'HumanObservation'                    AS basisOfRecord,
   o."SamplingProtocol"                  AS samplingProtocol, -- targeted monitoring
-  printf('%.2f', ROUND(o."LengthOfTime_Min", 2)) AS sampleSizeValue,
-  'minute'                             AS sampleSizeUnit,
 -- EVENT
   o."ObservationIdentifier"             AS eventID,
   date(o."DateOfObservation")           AS eventDate,
