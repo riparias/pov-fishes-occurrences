@@ -6,7 +6,7 @@ Created by Damiano Oldoni (INBO)
 
 SELECT
   o."ObservationIdentifier"             AS eventID,
-  'sampling effort'                      AS measurementType,
+  'sampling duration'                   AS measurementType,
   printf('%.2f', ROUND(o."LengthOfTime_Min", 2)) AS measurementValue,
   'minute'                              AS measurementUnit
 FROM occurrences AS o
