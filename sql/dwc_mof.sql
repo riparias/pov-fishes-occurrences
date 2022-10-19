@@ -2,6 +2,30 @@
 Created by Damiano Oldoni (INBO)
 */
 
+/* sampling effort */
+
+SELECT
+  o."ObservationIdentifier"             AS eventID,
+  'sampling duration'                   AS measurementType,
+  printf('%.2f', ROUND(o."LengthOfTime_Min", 2)) AS measurementValue,
+  'minute'                              AS measurementUnit
+FROM occurrences AS o
+WHERE CAST(o."LengthOfTime_Min" AS NUMERIC) > 0
+
+UNION
+
+/* survey transect length */
+
+SELECT
+  o."ObservationIdentifier"             AS eventID,
+  'sampling distance'                   AS measurementType,
+  printf('%.1f', ROUND(o."LengthOfLocation_Meter", 1)) AS measurementValue,
+  'meter'                              AS measurementUnit
+FROM occurrences AS o
+WHERE CAST(o."LengthOfLocation_Meter" AS NUMERIC) > 0
+
+UNION
+
 /* length */
 
 SELECT
@@ -19,7 +43,7 @@ UNION
 SELECT
   o."ObservationIdentifier"             AS eventID,
   'weight'                              AS measurementType,
-  printf('%.1f', ROUND(o."WeightSpecimen_Gram", 1)) AS measurementValue,
+  printf('%.2f', ROUND(o."WeightSpecimen_Gram", 2)) AS measurementValue,
   'g'                                   AS measurementUnit
 FROM occurrences AS o
 WHERE CAST(o."WeightSpecimen_Gram" AS NUMERIC) > 0
