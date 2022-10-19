@@ -18,7 +18,7 @@ UNION
 
 SELECT
   o."ObservationIdentifier"             AS eventID,
-  'survey transect length'              AS measurementType,
+  'sampling distance'                   AS measurementType,
   printf('%.1f', ROUND(o."LengthOfLocation_Meter", 1)) AS measurementValue,
   'meter'                              AS measurementUnit
 FROM occurrences AS o
