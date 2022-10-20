@@ -268,24 +268,8 @@ testthat::test_that("measurementType always filled in and one of the list", {
     "length",
     "oxygen saturation",
     "pH",
-    "temperature",
-    "weight"
-  )
-  testthat::expect_true(
-    all(!is.na(dwc_mof$measurementType))
-  )
-  testthat::expect_equal(sort(unique(dwc_mof$measurementType)), types)
-})
-
-testthat::test_that("measurementType always filled in and one of the list", {
-  types <- c(
-    "dissolved oxygen",
-    "electrical conductivity",
-    "length",
-    "oxygen saturation",
-    "pH",
-    "sampling effort",
-    "survey transect length",
+    "sampling distance",
+    "sampling duration",
     "temperature",
     "weight"
   )
