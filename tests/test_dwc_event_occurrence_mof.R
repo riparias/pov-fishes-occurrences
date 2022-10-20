@@ -289,7 +289,11 @@ testthat::test_that(
       all(!is.na(dwc_mof[dwc_mof$measurementType !="pH",]$measurementUnit))
     )
     testthat::expect_true(
-      all(sort(unique(dwc_mof_without_pH$measurementUnit), na.last = NA) %in% units_mof)
+      all(sort(
+        unique(dwc_mof[dwc_mof$measurementType !="pH",]$measurementUnit),
+        na.last = NA
+        ) %in% units_mof
+      )
     )
   }
 )
