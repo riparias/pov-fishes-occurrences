@@ -284,11 +284,11 @@ testthat::test_that("measurementValue always filled in and positive", {
 
 testthat::test_that(
   "measurementUnit always filled in except for pH and one of the list", {
-    units <- c("%", "°C", "µS/cm", "cm", "g", "meter","mg/L", "minute")
+    units_mof <- c("%", "°C", "µS/cm", "cm", "g", "meter","mg/L", "minute")
     dwc_mof_without_pH <-  dwc_mof[dwc_mof$measurementType !="pH",]
     testthat::expect_true(all(!is.na(dwc_mof_without_pH$measurementUnit)))
     testthat::expect_equal(
-      sort(unique(dwc_mof_without_pH$measurementUnit)), units
+      sort(unique(dwc_mof_without_pH$measurementUnit)), units_mof
     )
   }
 )
