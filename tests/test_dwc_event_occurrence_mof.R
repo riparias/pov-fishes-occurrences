@@ -293,6 +293,75 @@ testthat::test_that(
     )
   }
 )
+
+testthat::test_that(
+  "sampling distance is expressed in meters", {
+    testthat::expect_true(
+      unique(dwc_mof[dwc_mof$measurementType == "sampling distance",]$measurementUnit) == "meter"
+    )
+  }
+)
+
+testthat::test_that(
+  "length is expressed in centimeters", {
+    testthat::expect_true(
+      unique(dwc_mof[dwc_mof$measurementType == "length",]$measurementUnit) == "cm"
+    )
+  }
+)
+
+testthat::test_that(
+  "weight is expressed in grams", {
+    testthat::expect_true(
+      unique(dwc_mof[dwc_mof$measurementType == "weight",]$measurementUnit) == "g"
+    )
+  }
+)
+
+testthat::test_that(
+  "pH is adimensional", {
+    testthat::expect_true(
+      is.na(unique(dwc_mof[dwc_mof$measurementType == "pH",]$measurementUnit))
+    )
+  }
+)
+
+testthat::test_that(
+  "dissolved oxygen is expressed in percentage", {
+    testthat::expect_true(
+      unique(dwc_mof[dwc_mof$measurementType == "dissolved oxygen",]$measurementUnit) == "mg/L"
+    )
+  }
+)
+
+testthat::test_that(
+  "dissolved oxygen is expressed in mg/L", {
+    testthat::expect_true(
+      unique(dwc_mof[dwc_mof$measurementType == "dissolved oxygen",]$measurementUnit) == "mg/L"
+    )
+  }
+)
+
+testthat::test_that(
+  "oxygen saturation is expressed in percentage", {
+    testthat::expect_true(
+      unique(dwc_mof[dwc_mof$measurementType == "oxygen saturation",]$measurementUnit) == "%"
+    )
+  }
+)
+
+testthat::test_that(
+  "electrical conductivity is expressed in uS/cm", {
+    testthat::expect_true(
+      unique(dwc_mof[dwc_mof$measurementType == "electrical conductivity",]$measurementUnit) == "µS/cm"
+    )
+  }
+)
+
+testthat::test_that(
+  "temperature is expressed in Celsius degrees", {
+    testthat::expect_true(
+      unique(dwc_mof[dwc_mof$measurementType == "temperature",]$measurementUnit) == "°C"
     )
   }
 )
