@@ -22,7 +22,7 @@ SELECT
     WHEN o."ScientificName" = 'Abramis bjoerkna' THEN 'Abramis bjoerkna'
     WHEN o."ScientificName" = 'Tinca tinca' THEN 'Tinca tinca'
     WHEN o."ScientificName" = 'Esox lucius' THEN 'Esox lucius'
-    WHEN o."ScientificName" = 'Abramis Brama' THEN 'Abramis Brama'
+    WHEN o."ScientificName" = 'Abramis Brama' THEN 'Abramis brama'
     WHEN o."ScientificName" = 'Perca fluviatilis' THEN 'Perca fluviatilis'
     WHEN o."ScientificName" = 'Gasterosteus aculeatus' THEN 'Gasterosteus aculeatus'
     WHEN o."ScientificName" = 'Pungitius pungitius' THEN 'Pungitius pungitius'
