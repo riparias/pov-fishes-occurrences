@@ -18,7 +18,6 @@ testthat::test_that("Right columns in right order: event core", {
     "language",
     "license",
     "rightsHolder",
-    "accessRights",
     "datasetID",
     "institutionCode",
     "datasetName",
