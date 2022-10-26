@@ -1,6 +1,6 @@
 ---
 title: "Darwin Core mapping"
-subtitle: "For: Targeted monitoring of fishes and crustacea by the Provincial Center of Environmental Research, Province East-Flanders, Belgium"
+subtitle: "For: Targeted monitoring of fishes and crustacea by the Provincial Center of Environmental Research (PCM) in East Flanders, Belgium"
 author:
 - Damiano Oldoni
 date: "`r Sys.Date()`"
