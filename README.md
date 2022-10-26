@@ -4,7 +4,7 @@
 
 ## Rationale
 
-This repository contains the functionality to standardize the fishes and crayfishes data of the [Province East Flanders](https://www.oost-vlaanderen.be/) (POV) to a [Darwin Core Archive](https://ipt.gbif.org/manual/en/ipt/2.5/dwca-guide) that can be harvested by a [GBIF IPT](https://ipt.gbif.org/manual/en/ipt/2.5/).
+This repository contains the functionality to standardize the fishes and crayfishes data of the [Provincial Center of Environmental Research](https://oost-vlaanderen.be/wonen-en-leven/natuur-en-milieu/provinciaal-centrumvoormilieuonderzoek.html) (PCM) of the [Province East Flanders](https://www.oost-vlaanderen.be/) to a [Darwin Core Archive](https://ipt.gbif.org/manual/en/ipt/2.5/dwca-guide) that can be harvested by a [GBIF IPT](https://ipt.gbif.org/manual/en/ipt/2.5/).
 
 ## Workflow
 
