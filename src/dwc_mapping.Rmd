@@ -59,7 +59,7 @@ coords <- as_tibble(st_coordinates(occurrences))
 occurrences <- 
   as_tibble(occurrences) %>% 
   bind_cols(coords) %>%
-  select(-.data$Shape)
+  select(-Shape)
 ```
 
 Preview:
