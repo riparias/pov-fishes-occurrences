@@ -7,10 +7,10 @@ SELECT
   'Event'                               AS type,
   'en'                                  AS language,
   'https://creativecommons.org/licenses/by-nc/4.0/legalcode' AS license,
-  'PCM'                                 AS rightsHolder,
+  'POV'                                 AS rightsHolder,
   ''                                    AS datasetID,
-  'PCM'                                 AS institutionCode,
-  'Monitoring of fishes and crustacea by the Provincial Center of Environmental Research (PCM) in East Flanders, Belgium' AS datasetName,
+  'POV'                                 AS institutionCode,
+  'Monitoring of fishes and crustacea by the province East Flanders, Belgium' AS datasetName,
   'HumanObservation'                    AS basisOfRecord,
   o."SamplingProtocol"                  AS samplingProtocol, -- targeted monitoring
 -- EVENT
