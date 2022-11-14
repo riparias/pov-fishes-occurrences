@@ -6,7 +6,7 @@ SELECT
 -- RECORD-LEVEL
   'Event'                               AS type,
   'en'                                  AS language,
-  'https://creativecommons.org/licenses/by-nc/4.0/legalcode' AS license,
+  'https://creativecommons.org/licenses/by/4.0/legalcode' AS license,
   'POV'                                 AS rightsHolder,
   ''                                    AS datasetID,
   'POV'                                 AS institutionCode,
