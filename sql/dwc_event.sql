@@ -8,7 +8,7 @@ SELECT
   'en'                                  AS language,
   'https://creativecommons.org/licenses/by/4.0/legalcode' AS license,
   'POV'                                 AS rightsHolder,
-  ''                                    AS datasetID,
+  'https://doi.org/10.15468/ap9ejd'     AS datasetID,
   'POV'                                 AS institutionCode,
   'Monitoring of fishes and crustacea by the province East Flanders, Belgium' AS datasetName,
   'HumanObservation'                    AS basisOfRecord,
