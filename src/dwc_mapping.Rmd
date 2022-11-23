@@ -1,6 +1,6 @@
 ---
 title: "Darwin Core mapping"
-subtitle: "For: Monitoring of fishes and crustacea by the Province East Flanders, Belgium"
+subtitle: "For: Monitoring of fishes and crustaceans by the Province East Flanders, Belgium"
 author:
 - Damiano Oldoni
 date: "`r Sys.Date()`"
