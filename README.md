@@ -14,7 +14,7 @@ This repository contains the functionality to standardize the fishes and crayfis
 ## Published dataset
 
 * [Dataset on the IPT](https://ipt.inbo.be/resource?r=pov-fishes-occurrences)
-* [Dataset on GBIF](https://www.gbif.org/dataset/ba1bf66f-863b-46c7-bdce-ec5853c16c55)
+* [Dataset on GBIF](https://doi.org/10.15468/ap9ejd)
 
 ## Repo structure
 
