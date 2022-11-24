@@ -62,6 +62,29 @@ request <- httr::build_url(url)
 Download requested data as csv file and save them in `vissen_en_crustacea.csv`:
 
 ```{r download_data}
-file <- here::here("data", "raw", "vissen_en_crustacea.csv")
+file_path <- here::here("data", "raw", "vissen_en_crustacea.csv")
 httr::GET(url = request, write_disk(file, overwrite = TRUE))
+```
+
+## Remove column `GmlID`
+
+The column `GMlID` is not present in the database of POV: it is added by the WFS service as a progressive number with the layer name as prefix. Removing this column from the raw data would increase the effectiveness of the git file change history tool, e.g. in case new observations are added at a certain row in the file.
+
+```{r remove_GmlID}
+# read raw occurrences
+raw_occurrences <- readr::read_csv(
+  file = file_path,
+  na = "",
+  col_types = readr::cols(.default = readr::col_character())
+)
+
+# remove GmlId column
+raw_occurrences <- subset(raw_occurrences, select = -GmlId)
+
+# save raw occurrences (overwrite file)
+readr::write_csv(
+  x = raw_occurrences,
+  file = file_path,
+  na = "",
+)
 ```

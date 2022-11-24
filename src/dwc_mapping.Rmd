@@ -114,13 +114,6 @@ dwc_mof_sql <- glue::glue_sql(
 dwc_mof <- DBI::dbGetQuery(con, dwc_mof_sql)
 ```
 
-Disconnect from SQLite database:
-
-```{r disconnect}
-DBI::dbDisconnect(con)
-```
-
-
 # Save data to CSV
 
 ```{r save_csv}
@@ -130,4 +123,139 @@ write_csv(
   na = ""
 )
 write_csv(dwc_mof, here::here("data", "processed", "mof.csv"), na = "")
+```
+
+# Overview changes
+
+In this section we summarize the changes in the DwC output after the very last udpate.
+
+## Read DwC files
+
+Read DwC mapping files from both `main`:
+
+```{r main}
+dwc_event_main <- readr::read_csv(
+  file = "https://raw.githubusercontent.com/riparias/pov-fishes-occurrences/main/data/processed/event.csv",
+  col_types = cols(.default = "c"))
+dwc_occurrence_main <- readr::read_csv(
+  file = "https://raw.githubusercontent.com/riparias/pov-fishes-occurrences/main/data/processed/occurrence.csv",
+  col_types = cols(.default = "c"))
+dwc_mof_main <- readr::read_csv(
+  file = "https://raw.githubusercontent.com/riparias/pov-fishes-occurrences/main/data/processed/mof.csv",
+  col_types = cols(.default = "c"))
+```
+
+and actual branch (`automatic-update-*`):
+ 
+```{r automatic-update}
+dwc_event_update <- readr::read_csv(
+  file = here::here("data","processed","event.csv"),
+  col_types = cols(.default = "c"))
+dwc_occurrence_update <- readr::read_csv(
+  file = here::here("data","processed","occurrence.csv"),
+  col_types = cols(.default = "c"))
+dwc_mof_update <- readr::read_csv(
+  file = here::here("data","processed","mof.csv"),
+  col_types = cols(.default = "c"))
+```
+
+## Overview
+
+How many new events (`eventID`) have been added in event core?
+
+```{r new_eventID_values}
+new_events <- 
+  dwc_event_update %>%
+  filter(!eventID %in% dwc_event_main$eventID)
+message("New events:")
+print(new_events)
+```
+
+How many occurrences (`occurrenceID`) have been added in occurrence extension?
+
+```{r new_occurrenceID_values}
+new_occs <- 
+  dwc_occurrence_update %>%
+  filter(!occurrenceID %in% dwc_occurrence_main$occurrenceID)
+message("New occurrences:")
+print(new_occs)
+```
+
+Have some events been removed?
+
+```{r removed_events}
+removed_events <- 
+  dwc_event_main %>%
+  filter(!eventID %in% dwc_event_update$eventID)
+message("Removed events:")
+print(removed_events)
+```
+
+
+Have some occurrences been removed?
+
+```{r removed_occs}
+removed_occs <- 
+  dwc_occurrence_main %>%
+  filter(!occurrenceID %in% dwc_occurrence_update$occurrenceID)
+message("Removed occurrences:")
+print(removed_occs)
+```
+
+Total number of rows in the new event core in comparison with the previous version:
+
+```{r nrows_events}
+message(paste("Number of events (new):", nrow(dwc_event_update)))
+message(paste("Number of events (old):", nrow(dwc_event_main)))
+message(paste("Difference:", 
+              nrow(dwc_event_update) - nrow(dwc_event_main))
+)
+```
+
+Total number of rows in the new occurrence extension in comparison with the previous version:
+
+```{r nrows_occs}
+message(paste("Number of occurrences (new):", nrow(dwc_occurrence_update)))
+message(paste("Number of occurrences (old):", nrow(dwc_occurrence_main)))
+message(paste("Difference:", 
+              nrow(dwc_occurrence_update) - nrow(dwc_occurrence_main))
+)
+```
+
+Total number of rows in the new measurement or facts (mof) extension in comparison with the previous version:
+
+```{r nrows_mof}
+message(paste("Number of mofs (new):", nrow(dwc_mof_update)))
+message(paste("Number of occurrences (old):", nrow(dwc_mof_main)))
+message(paste("Difference:", 
+              nrow(dwc_mof_update) - nrow(dwc_mof_main))
+)
+```
+
+## New species
+
+The DwC `scientificName` is a manual mapping of scientific names from field `ScientificName`. It is therefore important to get a list with all new values to be added to the mapping:
+
+```{r new_Sporen_Waarnemingen_Naam}
+occs_without_sc_name <- 
+  dwc_occurrence_update %>%
+  filter(is.na(scientificName)) %>%
+  pull(occurrenceID)
+query <- glue::glue_sql("
+  SELECT 
+    DISTINCT o.\"ScientificName\" AS \"ScientificName\"
+  FROM occurrences AS o 
+  WHERE  
+  o.\"ObservationIdentifier\" IN ({occs_without_sc_name*})
+  ", .con = con)
+query
+raw_sc_names <- dplyr::as_tibble(DBI::dbGetQuery(con, query))
+message("New values in field 'ScientificName' to be mapped:")
+print(raw_sc_names)
+```
+
+Disconnect from SQLite database:
+
+```{r disconnect}
+DBI::dbDisconnect(con)
 ```
