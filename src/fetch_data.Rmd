@@ -63,7 +63,7 @@ Download requested data as csv file and save them in `vissen_en_crustacea.csv`:
 
 ```{r download_data}
 file_path <- here::here("data", "raw", "vissen_en_crustacea.csv")
-httr::GET(url = request, write_disk(file, overwrite = TRUE))
+httr::GET(url = request, write_disk(file_path, overwrite = TRUE))
 ```
 
 ## Remove column `GmlID`
