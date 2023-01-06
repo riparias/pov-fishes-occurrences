@@ -23766,47 +23766,69 @@ VIS_22052,weight,7.00,g
 VIS_22055,length,10.5,cm
 VIS_22055,weight,16.00,g
 VIS_22056,length,8.3,cm
+VIS_22056,sampling distance,50.0,meter
 VIS_22056,weight,30.00,g
 VIS_22057,length,18.0,cm
+VIS_22057,sampling distance,50.0,meter
 VIS_22057,weight,73.00,g
 VIS_22058,length,11.8,cm
+VIS_22058,sampling distance,50.0,meter
 VIS_22058,weight,23.00,g
 VIS_22059,length,12.7,cm
+VIS_22059,sampling distance,50.0,meter
 VIS_22059,weight,24.00,g
 VIS_2206,sampling distance,50.0,meter
 VIS_2206,weight,10.00,g
 VIS_22060,length,19.9,cm
+VIS_22060,sampling distance,50.0,meter
 VIS_22060,weight,91.00,g
 VIS_22066,length,22.0,cm
+VIS_22066,sampling distance,75.0,meter
 VIS_22066,weight,215.00,g
 VIS_22067,length,19.4,cm
+VIS_22067,sampling distance,75.0,meter
 VIS_22067,weight,139.00,g
 VIS_22068,length,19.3,cm
+VIS_22068,sampling distance,75.0,meter
 VIS_22068,weight,146.00,g
 VIS_22069,length,21.3,cm
+VIS_22069,sampling distance,75.0,meter
 VIS_22069,weight,193.00,g
 VIS_2207,sampling distance,50.0,meter
 VIS_2207,weight,56.00,g
 VIS_22070,length,23.0,cm
+VIS_22070,sampling distance,75.0,meter
 VIS_22070,weight,248.00,g
 VIS_22071,length,22.1,cm
+VIS_22071,sampling distance,75.0,meter
 VIS_22071,weight,214.00,g
 VIS_22072,length,22.0,cm
+VIS_22072,sampling distance,75.0,meter
 VIS_22072,weight,215.00,g
 VIS_22073,length,22.0,cm
+VIS_22073,sampling distance,75.0,meter
 VIS_22073,weight,213.00,g
 VIS_22074,length,22.0,cm
+VIS_22074,sampling distance,75.0,meter
 VIS_22074,weight,219.00,g
 VIS_22075,length,5.5,cm
+VIS_22075,sampling distance,75.0,meter
 VIS_22075,weight,1.00,g
 VIS_22076,length,5.7,cm
+VIS_22076,sampling distance,75.0,meter
 VIS_22076,weight,1.00,g
 VIS_22077,length,6.0,cm
+VIS_22077,sampling distance,75.0,meter
 VIS_22077,weight,1.00,g
+VIS_22078,sampling distance,75.0,meter
 VIS_22078,weight,1.00,g
+VIS_22079,sampling distance,75.0,meter
 VIS_22079,weight,2.00,g
+VIS_22080,sampling distance,60.0,meter
 VIS_22080,weight,23.00,g
+VIS_22081,sampling distance,60.0,meter
 VIS_22081,weight,0.50,g
+VIS_22082,sampling distance,60.0,meter
 VIS_22082,weight,1.50,g
 VIS_22086,length,12.8,cm
 VIS_22086,sampling distance,100.0,meter
