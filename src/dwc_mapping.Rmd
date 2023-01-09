@@ -226,7 +226,7 @@ Total number of rows in the new measurement or facts (mof) extension in comparis
 
 ```{r nrows_mof}
 message(paste("Number of mofs (new):", nrow(dwc_mof_update)))
-message(paste("Number of occurrences (old):", nrow(dwc_mof_main)))
+message(paste("Number of mofs (old):", nrow(dwc_mof_main)))
 message(paste("Difference:", 
               nrow(dwc_mof_update) - nrow(dwc_mof_main))
 )
