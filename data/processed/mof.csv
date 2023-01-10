@@ -23545,9 +23545,6 @@ VIS_21953,sampling distance,50.0,meter
 VIS_21953,weight,9.00,g
 VIS_21956,length,8.0,cm
 VIS_21956,weight,6.00,g
-VIS_21957,length,10.0,cm
-VIS_21958,length,7.0,cm
-VIS_21959,length,7.0,cm
 VIS_2196,dissolved oxygen,6.7,mg/L
 VIS_2196,electrical conductivity,897.0,µS/cm
 VIS_2196,length,5.0,cm
@@ -23556,7 +23553,6 @@ VIS_2196,pH,7.8,
 VIS_2196,sampling distance,100.0,meter
 VIS_2196,temperature,17.8,°C
 VIS_2196,weight,1.20,g
-VIS_21960,length,6.0,cm
 VIS_21961,length,15.0,cm
 VIS_21961,weight,38.00,g
 VIS_21962,length,12.0,cm
@@ -24292,7 +24288,7 @@ VIS_22443,sampling distance,120.0,meter
 VIS_22443,weight,4.00,g
 VIS_22444,length,24.5,cm
 VIS_22444,sampling distance,120.0,meter
-VIS_22444,weight,21.00,g
+VIS_22444,weight,212.00,g
 VIS_22445,length,9.8,cm
 VIS_22445,sampling distance,120.0,meter
 VIS_22445,weight,12.00,g
