@@ -5503,13 +5503,13 @@ VIS_7902,HumanObservation,VIS_7902,2,verified by experts,Esox lucius,Animalia,sn
 VIS_7903,HumanObservation,VIS_7903,4,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_7904,HumanObservation,VIS_7904,5,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_7905,HumanObservation,VIS_7905,2,verified by experts,Perca fluviatilis,Animalia,baars
-VIS_7908,HumanObservation,VIS_7908,9,verified by experts,Rutilus rutilus,Animalia,blankvoorn
-VIS_7909,HumanObservation,VIS_7909,2,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
+VIS_7908,HumanObservation,VIS_7908,146,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_7909,HumanObservation,VIS_7909,5,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
 VIS_7910,HumanObservation,VIS_7910,2,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_7911,HumanObservation,VIS_7911,22,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_7913,HumanObservation,VIS_7913,13,verified by experts,Rutilus rutilus,Animalia,blankvoorn
-VIS_7914,HumanObservation,VIS_7914,2,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
-VIS_7915,HumanObservation,VIS_7915,16,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_7911,HumanObservation,VIS_7911,55,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_7913,HumanObservation,VIS_7913,161,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_7914,HumanObservation,VIS_7914,6,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
+VIS_7915,HumanObservation,VIS_7915,18,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_7917,HumanObservation,VIS_7917,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_7919,HumanObservation,VIS_7919,177,verified by experts,Abramis brama,Animalia,brasem
 VIS_7920,HumanObservation,VIS_7920,2,verified by experts,Cyprinus carpio,Animalia,karper
@@ -15165,3 +15165,5 @@ VIS_22962,HumanObservation,VIS_22962,3,verified by experts,Rutilus rutilus,Anima
 VIS_22963,HumanObservation,VIS_22963,1,verified by experts,Stizostedion lucoperca,Animalia,snoekbaars
 VIS_22964,HumanObservation,VIS_22964,1,verified by experts,Abramis brama,Animalia,brasem
 VIS_22965,HumanObservation,VIS_22965,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_22968,HumanObservation,VIS_22968,75,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_22971,HumanObservation,VIS_22971,1,verified by experts,Gobio gobio,Animalia,riviergrondel
