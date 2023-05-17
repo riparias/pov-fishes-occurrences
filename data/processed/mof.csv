@@ -25356,6 +25356,9 @@ VIS_22968,sampling distance,100.0,meter
 VIS_22968,weight,112.00,g
 VIS_22971,sampling distance,100.0,meter
 VIS_22971,weight,20.00,g
+VIS_22972,length,7.2,cm
+VIS_22972,sampling distance,75.0,meter
+VIS_22972,weight,3.40,g
 VIS_2349,length,4.5,cm
 VIS_2349,sampling distance,75.0,meter
 VIS_2349,weight,1.00,g
