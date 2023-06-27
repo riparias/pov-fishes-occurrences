@@ -50,6 +50,13 @@ SELECT
     WHEN o."ScientificName" = 'Faxonius limosus' THEN 'Faxonius limosus'
     WHEN o."ScientificName" = 'Lithobates catesbeianus' THEN 'Lithobates catesbeianus'
     WHEN o."ScientificName" = 'Anarhichas lupus' THEN 'Anarhichas lupus'
+    WHEN o."ScientificName" = 'Leuciscus rutilus' THEN 'Leuciscus rutilus'
+    WHEN o."ScientificName" = 'Rutilus erythrophthalmus' THEN 'Rutilus erythrophthalmus'
+    WHEN o."ScientificName" = 'Blicca bjoerkna' THEN 'Blicca bjoerkna'
+    WHEN o."ScientificName" = 'Gymnocephalus cernuus' THEN 'Gymnocephalus cernuus'
+    WHEN o."ScientificName" = 'Stizostedion lucioperca' THEN 'Stizostedion lucioperca'
+    WHEN o."ScientificName" = 'Platichthys flesus' THEN 'Platichthys flesus'
+    WHEN o."ScientificName" = 'Ctenopharyngodon idellia' THEN 'Ctenopharyngodon idellia'
     ELSE NULL
   END                                   AS scientificName,
   o."Kingdom"                           AS kingdom, -- Animalia
@@ -73,12 +80,14 @@ SELECT
     WHEN o.DutchName = 'Pos' THEN 'pos'
     WHEN o.DutchName = 'zwartbekgrondel' THEN 'zwartbekgrondel'
     WHEN o.DutchName = 'snoekbaars' THEN 'snoekbaars'
+    WHEN o.DutchName = 'Snoekbaars' THEN 'snoekbaars'
     WHEN o.DutchName = 'Zonnebaars' THEN 'zonnebaars'
     WHEN o.DutchName = 'Tong' THEN 'tong'
     WHEN o.DutchName = 'Kroeskarper' THEN 'kroeskarper'
     WHEN o.DutchName = 'Graskarper' THEN 'graskarper'
     WHEN o.DutchName = 'Zilverkarper' THEN 'zilverkarper'
     WHEN o.DutchName = 'zeebaars' THEN 'zeebaars'
+    WHEN o.DutchName = 'Zeebaars' THEN 'zeebaars'
     WHEN o.DutchName = 'Rode Amerikaanse rivierkreeft' THEN 'rode Amerikaanse rivierkreeft'
     WHEN o.DutchName = 'Chinese wolhandkrab' THEN 'Chinese wolhandkrab'
     WHEN o.DutchName = 'Schol' THEN 'schol'
@@ -87,6 +96,8 @@ SELECT
     WHEN o.DutchName = 'Gevlekte Amerikaanse rivierkreeft' THEN 'gevlekte Amerikaanse rivierkreeft'
     WHEN o.DutchName = 'Amerikaanse stierkikker' THEN 'Amerikaanse stierkikker'
     WHEN o.DutchName = 'Europese meerval' THEN 'Europese meerval'
+    WHEN o.DutchName = 'Bot' THEN 'bot'
+    WHEN o.DutchName = 'Zeewolf' THEN 'zeewolf'
     ELSE NULL
   END                                   AS vernacularName
   FROM occurrences AS o
