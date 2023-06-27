@@ -234,6 +234,7 @@ message(paste("Difference:",
 
 ## New species
 
+### New `scientificName`
 The DwC `scientificName` is a manual mapping of scientific names from field `ScientificName`. It is therefore important to get a list with all new values to be added to the mapping:
 
 ```{r new_Sporen_Waarnemingen_Naam}
@@ -252,6 +253,28 @@ query
 raw_sc_names <- dplyr::as_tibble(DBI::dbGetQuery(con, query))
 message("New values in field 'ScientificName' to be mapped:")
 print(raw_sc_names)
+```
+
+### New `vernacularName`
+
+The DwC `vernacularName` is a manual mapping of Dutch vernacular names from field `DutchName`. It is therefore important to get a list with all new values to be added to the mapping:
+
+```{r new_DutchName}
+occs_without_vernacular_name <- 
+  dwc_occurrence_update %>%
+  filter(is.na(vernacularName)) %>%
+  pull(occurrenceID)
+query <- glue::glue_sql("
+  SELECT 
+    DISTINCT o.\"DutchName\" AS \"Dutchname\"
+  FROM occurrences AS o 
+  WHERE  
+  o.\"ObservationIdentifier\" IN ({occs_without_vernacular_name*})
+  ", .con = con)
+query
+raw_vernacular_names <- dplyr::as_tibble(DBI::dbGetQuery(con, query))
+message("New values in field 'DutchName' to be mapped:")
+print(raw_vernacular_names)
 ```
 
 Disconnect from SQLite database:
