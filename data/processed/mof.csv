@@ -17770,6 +17770,8 @@ VIS_18999,weight,60.00,g
 VIS_1900,length,6.2,cm
 VIS_1900,sampling distance,200.0,meter
 VIS_1900,weight,2.80,g
+VIS_19004,length,44.0,cm
+VIS_19004,weight,1060.00,g
 VIS_19005,length,32.0,cm
 VIS_19005,weight,342.00,g
 VIS_19006,length,32.3,cm
@@ -19324,6 +19326,8 @@ VIS_19758,weight,28.70,g
 VIS_19759,length,14.2,cm
 VIS_19759,sampling distance,100.0,meter
 VIS_19759,weight,42.50,g
+VIS_1976,length,12.0,cm
+VIS_1976,weight,21.20,g
 VIS_19760,length,14.6,cm
 VIS_19760,sampling distance,100.0,meter
 VIS_19760,weight,39.80,g
@@ -19354,6 +19358,8 @@ VIS_19768,weight,8.50,g
 VIS_19769,length,7.1,cm
 VIS_19769,sampling distance,100.0,meter
 VIS_19769,weight,4.20,g
+VIS_1977,length,16.0,cm
+VIS_1977,weight,43.90,g
 VIS_19770,length,15.5,cm
 VIS_19770,sampling distance,100.0,meter
 VIS_19770,weight,42.10,g
@@ -19381,6 +19387,8 @@ VIS_19778,weight,52.30,g
 VIS_19779,length,13.2,cm
 VIS_19779,sampling distance,200.0,meter
 VIS_19779,weight,23.50,g
+VIS_1978,length,13.5,cm
+VIS_1978,weight,24.60,g
 VIS_19780,length,13.0,cm
 VIS_19780,sampling distance,200.0,meter
 VIS_19780,weight,22.00,g
@@ -19411,6 +19419,8 @@ VIS_19788,weight,5.00,g
 VIS_19789,length,7.0,cm
 VIS_19789,sampling distance,200.0,meter
 VIS_19789,weight,3.80,g
+VIS_1979,length,15.0,cm
+VIS_1979,weight,39.30,g
 VIS_19790,length,8.2,cm
 VIS_19790,sampling distance,200.0,meter
 VIS_19790,weight,5.60,g
@@ -19875,6 +19885,9 @@ VIS_19948,weight,14.00,g
 VIS_19949,length,10.2,cm
 VIS_19949,sampling distance,100.0,meter
 VIS_19949,weight,10.10,g
+VIS_1995,length,2.0,cm
+VIS_1995,sampling distance,25.0,meter
+VIS_1995,weight,0.10,g
 VIS_19950,length,11.0,cm
 VIS_19950,sampling distance,100.0,meter
 VIS_19950,weight,11.70,g
@@ -23534,6 +23547,14 @@ VIS_21948,weight,2.00,g
 VIS_21949,length,10.4,cm
 VIS_21949,sampling distance,70.0,meter
 VIS_21949,weight,14.00,g
+VIS_2195,dissolved oxygen,6.7,mg/L
+VIS_2195,electrical conductivity,897.0,µS/cm
+VIS_2195,length,15.5,cm
+VIS_2195,oxygen saturation,72.1,%
+VIS_2195,pH,7.8,
+VIS_2195,sampling distance,100.0,meter
+VIS_2195,temperature,17.8,°C
+VIS_2195,weight,50.80,g
 VIS_21950,length,3.2,cm
 VIS_21950,sampling distance,70.0,meter
 VIS_21950,weight,1.00,g
@@ -25808,6 +25829,8 @@ VIS_2391,weight,0.60,g
 VIS_2392,length,4.0,cm
 VIS_2392,sampling distance,75.0,meter
 VIS_2392,weight,0.60,g
+VIS_2393,sampling distance,75.0,meter
+VIS_2393,weight,3.00,g
 VIS_2394,length,11.0,cm
 VIS_2394,sampling distance,75.0,meter
 VIS_2394,weight,22.50,g
@@ -27074,6 +27097,12 @@ VIS_3181,weight,6800.00,g
 VIS_3182,length,74.0,cm
 VIS_3182,sampling distance,100.0,meter
 VIS_3182,weight,12000.00,g
+VIS_3189,length,10.5,cm
+VIS_3189,sampling distance,100.0,meter
+VIS_3189,weight,13.50,g
+VIS_3190,length,9.0,cm
+VIS_3190,sampling distance,100.0,meter
+VIS_3190,weight,7.20,g
 VIS_3191,length,75.0,cm
 VIS_3191,sampling distance,300.0,meter
 VIS_3191,weight,5166.00,g
@@ -27101,14 +27130,54 @@ VIS_3198,weight,4526.00,g
 VIS_3199,length,55.0,cm
 VIS_3199,sampling distance,300.0,meter
 VIS_3199,weight,2090.00,g
+VIS_3203,length,8.0,cm
+VIS_3203,sampling distance,300.0,meter
+VIS_3203,weight,6.90,g
+VIS_3204,length,10.0,cm
+VIS_3204,sampling distance,300.0,meter
+VIS_3204,weight,11.60,g
+VIS_3205,length,11.0,cm
+VIS_3205,sampling distance,300.0,meter
+VIS_3205,weight,16.80,g
+VIS_3206,length,9.2,cm
+VIS_3206,sampling distance,300.0,meter
+VIS_3206,weight,9.10,g
+VIS_3207,length,8.0,cm
+VIS_3207,sampling distance,300.0,meter
+VIS_3207,weight,5.00,g
+VIS_3208,length,9.5,cm
+VIS_3208,sampling distance,300.0,meter
+VIS_3208,weight,9.50,g
+VIS_3209,length,8.2,cm
+VIS_3209,sampling distance,300.0,meter
+VIS_3209,weight,6.80,g
+VIS_3210,length,9.2,cm
+VIS_3210,sampling distance,300.0,meter
+VIS_3210,weight,9.10,g
 VIS_3211,length,7.0,cm
 VIS_3211,sampling distance,300.0,meter
 VIS_3211,weight,3.10,g
 VIS_3212,length,4.0,cm
 VIS_3212,sampling distance,300.0,meter
 VIS_3212,weight,0.80,g
+VIS_3215,length,34.5,cm
+VIS_3215,weight,406.00,g
+VIS_3216,length,34.0,cm
+VIS_3216,weight,460.00,g
+VIS_3217,length,31.5,cm
+VIS_3217,weight,348.00,g
+VIS_3218,length,13.0,cm
+VIS_3218,weight,25.00,g
 VIS_3219,length,41.0,cm
 VIS_3219,weight,643.00,g
+VIS_3222,length,25.0,cm
+VIS_3222,weight,181.00,g
+VIS_3223,length,26.0,cm
+VIS_3223,weight,197.00,g
+VIS_3224,length,20.0,cm
+VIS_3224,weight,89.00,g
+VIS_3225,length,8.7,cm
+VIS_3225,weight,6.10,g
 VIS_3226,length,9.0,cm
 VIS_3226,weight,5.50,g
 VIS_3227,length,10.0,cm
@@ -27117,12 +27186,50 @@ VIS_3228,length,11.0,cm
 VIS_3228,weight,12.10,g
 VIS_3229,length,10.2,cm
 VIS_3229,weight,10.20,g
+VIS_3235,length,11.0,cm
+VIS_3235,weight,14.90,g
+VIS_3236,length,27.5,cm
+VIS_3236,weight,20.60,g
+VIS_3244,length,35.0,cm
+VIS_3244,weight,515.00,g
+VIS_3245,length,28.0,cm
+VIS_3245,weight,212.00,g
+VIS_3246,length,32.5,cm
+VIS_3246,weight,400.00,g
+VIS_3247,length,34.0,cm
+VIS_3247,weight,442.00,g
+VIS_3248,length,25.5,cm
+VIS_3248,weight,194.00,g
+VIS_3249,length,10.5,cm
+VIS_3249,weight,13.60,g
+VIS_3250,length,10.5,cm
+VIS_3250,weight,13.00,g
 VIS_3251,length,7.0,cm
 VIS_3251,weight,3.10,g
 VIS_3252,length,10.0,cm
 VIS_3252,weight,7.20,g
+VIS_3255,length,33.5,cm
+VIS_3255,weight,391.00,g
+VIS_3256,length,27.2,cm
+VIS_3256,weight,200.00,g
+VIS_3257,length,34.4,cm
+VIS_3257,weight,465.00,g
 VIS_3258,length,10.8,cm
 VIS_3258,weight,26.70,g
+VIS_3271,length,26.0,cm
+VIS_3271,weight,202.00,g
+VIS_3272,length,32.5,cm
+VIS_3272,weight,380.00,g
+VIS_3273,length,28.0,cm
+VIS_3273,weight,250.00,g
+VIS_3274,length,25.0,cm
+VIS_3274,weight,190.00,g
+VIS_3275,length,27.0,cm
+VIS_3275,weight,200.00,g
+VIS_3276,length,32.0,cm
+VIS_3276,weight,340.00,g
+VIS_3277,length,27.0,cm
+VIS_3277,weight,220.00,g
 VIS_3278,length,9.0,cm
 VIS_3278,weight,7.50,g
 VIS_3279,length,14.8,cm
@@ -36905,6 +37012,7 @@ VIS_7343,weight,711.50,g
 VIS_7344,weight,23.00,g
 VIS_7345,weight,155.00,g
 VIS_7346,weight,7050.00,g
+VIS_7347,weight,257.00,g
 VIS_735,dissolved oxygen,7.8,mg/L
 VIS_735,electrical conductivity,790.0,µS/cm
 VIS_735,pH,7.8,
@@ -36979,6 +37087,7 @@ VIS_749,electrical conductivity,790.0,µS/cm
 VIS_749,pH,7.4,
 VIS_749,temperature,11.0,°C
 VIS_749,weight,1890.80,g
+VIS_7490,sampling distance,200.0,meter
 VIS_7491,sampling distance,200.0,meter
 VIS_750,dissolved oxygen,8.8,mg/L
 VIS_750,electrical conductivity,786.0,µS/cm
