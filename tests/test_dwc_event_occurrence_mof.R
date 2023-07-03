@@ -186,7 +186,9 @@ testthat::test_that("scientificName is never NA and one of the list", {
     "Gymnocephalus cernuus",
     "Stizostedion lucioperca",
     "Platichthys flesus",
-    "Ctenopharyngodon idellia"
+    "Ctenopharyngodon idellia",
+    "Sprattus sprattus",
+    "Trisopterus luscus"
   )
   testthat::expect_true(all(!is.na(dwc_occurrence$scientificName)))
   testthat::expect_true(all(dwc_occurrence$scientificName %in% species))
@@ -234,7 +236,9 @@ testthat::test_that(
       "Amerikaanse stierkikker",
       "Europese meerval",
       "bot",
-      "zeewolf"
+      "zeewolf",
+      "sprot",
+      "steenbolk"
     )
     testthat::expect_true(
       all(!is.na(dwc_occurrence$vernacularName))
