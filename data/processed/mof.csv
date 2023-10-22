@@ -26481,9 +26481,14 @@ VIS_23581,length,4.0,cm
 VIS_23582,length,18.2,cm
 VIS_23584,length,7.2,cm
 VIS_23585,length,6.5,cm
+VIS_23587,sampling distance,400.0,meter
 VIS_2359,length,6.0,cm
 VIS_2359,sampling distance,75.0,meter
 VIS_2359,weight,2.40,g
+VIS_23593,sampling distance,400.0,meter
+VIS_23594,sampling distance,200.0,meter
+VIS_23596,sampling distance,200.0,meter
+VIS_23598,sampling distance,200.0,meter
 VIS_2360,length,6.8,cm
 VIS_2360,sampling distance,75.0,meter
 VIS_2360,weight,4.10,g
