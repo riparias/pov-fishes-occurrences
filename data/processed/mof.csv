@@ -10707,7 +10707,7 @@ VIS_15218,weight,6.80,g
 VIS_15219,length,8.0,cm
 VIS_15219,sampling duration,12.00,minute
 VIS_15219,weight,4.80,g
-VIS_1522,dissolved oxygen,5.1,mg/L
+VIS_1522,dissolved oxygen,5.0,mg/L
 VIS_1522,electrical conductivity,1035.0,µS/cm
 VIS_1522,length,6.0,cm
 VIS_1522,oxygen saturation,52.0,%
@@ -10745,7 +10745,7 @@ VIS_15228,weight,6.60,g
 VIS_15229,length,6.5,cm
 VIS_15229,sampling duration,12.00,minute
 VIS_15229,weight,2.70,g
-VIS_1523,dissolved oxygen,5.1,mg/L
+VIS_1523,dissolved oxygen,5.0,mg/L
 VIS_1523,electrical conductivity,1035.0,µS/cm
 VIS_1523,length,7.3,cm
 VIS_1523,oxygen saturation,52.0,%
@@ -10783,7 +10783,7 @@ VIS_15238,weight,5.10,g
 VIS_15239,length,8.2,cm
 VIS_15239,sampling duration,12.00,minute
 VIS_15239,weight,5.90,g
-VIS_1524,dissolved oxygen,5.1,mg/L
+VIS_1524,dissolved oxygen,5.0,mg/L
 VIS_1524,electrical conductivity,1035.0,µS/cm
 VIS_1524,length,7.2,cm
 VIS_1524,oxygen saturation,52.0,%
@@ -10821,7 +10821,7 @@ VIS_15248,weight,5.40,g
 VIS_15249,length,7.0,cm
 VIS_15249,sampling duration,12.00,minute
 VIS_15249,weight,2.70,g
-VIS_1525,dissolved oxygen,5.1,mg/L
+VIS_1525,dissolved oxygen,5.0,mg/L
 VIS_1525,electrical conductivity,1035.0,µS/cm
 VIS_1525,length,14.5,cm
 VIS_1525,oxygen saturation,52.0,%
@@ -10859,7 +10859,7 @@ VIS_15258,weight,1.00,g
 VIS_15259,length,8.5,cm
 VIS_15259,sampling duration,12.00,minute
 VIS_15259,weight,5.40,g
-VIS_1526,dissolved oxygen,5.1,mg/L
+VIS_1526,dissolved oxygen,5.0,mg/L
 VIS_1526,electrical conductivity,1035.0,µS/cm
 VIS_1526,length,7.2,cm
 VIS_1526,oxygen saturation,52.0,%
@@ -10897,7 +10897,7 @@ VIS_15268,weight,4.20,g
 VIS_15269,length,10.3,cm
 VIS_15269,sampling duration,12.00,minute
 VIS_15269,weight,10.70,g
-VIS_1527,dissolved oxygen,5.1,mg/L
+VIS_1527,dissolved oxygen,5.0,mg/L
 VIS_1527,electrical conductivity,1035.0,µS/cm
 VIS_1527,length,8.0,cm
 VIS_1527,oxygen saturation,52.0,%
@@ -10935,7 +10935,7 @@ VIS_15278,weight,10.10,g
 VIS_15279,length,7.0,cm
 VIS_15279,sampling duration,12.00,minute
 VIS_15279,weight,3.10,g
-VIS_1528,dissolved oxygen,5.1,mg/L
+VIS_1528,dissolved oxygen,5.0,mg/L
 VIS_1528,electrical conductivity,1035.0,µS/cm
 VIS_1528,length,7.5,cm
 VIS_1528,oxygen saturation,52.0,%
@@ -10973,7 +10973,7 @@ VIS_15288,weight,7.10,g
 VIS_15289,length,6.8,cm
 VIS_15289,sampling duration,12.00,minute
 VIS_15289,weight,2.80,g
-VIS_1529,dissolved oxygen,5.1,mg/L
+VIS_1529,dissolved oxygen,5.0,mg/L
 VIS_1529,electrical conductivity,1035.0,µS/cm
 VIS_1529,length,7.0,cm
 VIS_1529,oxygen saturation,52.0,%
@@ -11011,7 +11011,7 @@ VIS_15298,weight,7.50,g
 VIS_15299,length,12.2,cm
 VIS_15299,sampling duration,12.00,minute
 VIS_15299,weight,18.50,g
-VIS_1530,dissolved oxygen,5.1,mg/L
+VIS_1530,dissolved oxygen,5.0,mg/L
 VIS_1530,electrical conductivity,1035.0,µS/cm
 VIS_1530,length,6.8,cm
 VIS_1530,oxygen saturation,52.0,%
@@ -11049,7 +11049,7 @@ VIS_15308,weight,3.00,g
 VIS_15309,length,9.0,cm
 VIS_15309,sampling duration,12.00,minute
 VIS_15309,weight,6.00,g
-VIS_1531,dissolved oxygen,5.1,mg/L
+VIS_1531,dissolved oxygen,5.0,mg/L
 VIS_1531,electrical conductivity,1035.0,µS/cm
 VIS_1531,length,6.5,cm
 VIS_1531,oxygen saturation,52.0,%
@@ -11087,7 +11087,7 @@ VIS_15318,weight,3.00,g
 VIS_15319,length,8.5,cm
 VIS_15319,sampling duration,12.00,minute
 VIS_15319,weight,5.70,g
-VIS_1532,dissolved oxygen,5.1,mg/L
+VIS_1532,dissolved oxygen,5.0,mg/L
 VIS_1532,electrical conductivity,1035.0,µS/cm
 VIS_1532,length,4.8,cm
 VIS_1532,oxygen saturation,52.0,%
@@ -11125,7 +11125,7 @@ VIS_15328,weight,6.80,g
 VIS_15329,length,9.0,cm
 VIS_15329,sampling duration,12.00,minute
 VIS_15329,weight,6.40,g
-VIS_1533,dissolved oxygen,5.1,mg/L
+VIS_1533,dissolved oxygen,5.0,mg/L
 VIS_1533,electrical conductivity,1035.0,µS/cm
 VIS_1533,oxygen saturation,52.0,%
 VIS_1533,pH,7.7,
@@ -11162,7 +11162,7 @@ VIS_15338,weight,3.00,g
 VIS_15339,length,7.0,cm
 VIS_15339,sampling duration,12.00,minute
 VIS_15339,weight,3.20,g
-VIS_1534,dissolved oxygen,5.1,mg/L
+VIS_1534,dissolved oxygen,5.0,mg/L
 VIS_1534,electrical conductivity,1035.0,µS/cm
 VIS_1534,length,9.2,cm
 VIS_1534,oxygen saturation,52.0,%
@@ -13343,7 +13343,7 @@ VIS_16416,pH,7.8,
 VIS_16416,sampling distance,100.0,meter
 VIS_16416,temperature,11.2,°C
 VIS_16416,weight,4.70,g
-VIS_16418,dissolved oxygen,6.1,mg/L
+VIS_16418,dissolved oxygen,6.0,mg/L
 VIS_16418,electrical conductivity,998.0,µS/cm
 VIS_16418,length,12.2,cm
 VIS_16418,oxygen saturation,55.0,%
@@ -13351,7 +13351,7 @@ VIS_16418,pH,7.9,
 VIS_16418,sampling distance,150.0,meter
 VIS_16418,temperature,11.1,°C
 VIS_16418,weight,24.20,g
-VIS_16419,dissolved oxygen,6.1,mg/L
+VIS_16419,dissolved oxygen,6.0,mg/L
 VIS_16419,electrical conductivity,998.0,µS/cm
 VIS_16419,length,15.0,cm
 VIS_16419,oxygen saturation,55.0,%
@@ -13359,7 +13359,7 @@ VIS_16419,pH,7.9,
 VIS_16419,sampling distance,150.0,meter
 VIS_16419,temperature,11.1,°C
 VIS_16419,weight,41.70,g
-VIS_16420,dissolved oxygen,6.1,mg/L
+VIS_16420,dissolved oxygen,6.0,mg/L
 VIS_16420,electrical conductivity,998.0,µS/cm
 VIS_16420,length,12.3,cm
 VIS_16420,oxygen saturation,55.0,%
@@ -13367,7 +13367,7 @@ VIS_16420,pH,7.9,
 VIS_16420,sampling distance,150.0,meter
 VIS_16420,temperature,11.1,°C
 VIS_16420,weight,22.00,g
-VIS_16421,dissolved oxygen,6.1,mg/L
+VIS_16421,dissolved oxygen,6.0,mg/L
 VIS_16421,electrical conductivity,998.0,µS/cm
 VIS_16421,length,12.0,cm
 VIS_16421,oxygen saturation,55.0,%
@@ -26492,6 +26492,7 @@ VIS_23598,sampling distance,200.0,meter
 VIS_2360,length,6.8,cm
 VIS_2360,sampling distance,75.0,meter
 VIS_2360,weight,4.10,g
+VIS_23606,sampling distance,200.0,meter
 VIS_2361,length,6.1,cm
 VIS_2361,sampling distance,75.0,meter
 VIS_2361,weight,1.80,g
@@ -31442,7 +31443,7 @@ VIS_4643,dissolved oxygen,18.5,mg/L
 VIS_4643,electrical conductivity,2360.0,µS/cm
 VIS_4643,length,14.0,cm
 VIS_4643,oxygen saturation,164.9,%
-VIS_4643,pH,8.5,
+VIS_4643,pH,8.4,
 VIS_4643,sampling distance,150.0,meter
 VIS_4643,temperature,15.9,°C
 VIS_4643,weight,34.80,g
@@ -31450,7 +31451,7 @@ VIS_4644,dissolved oxygen,18.5,mg/L
 VIS_4644,electrical conductivity,2360.0,µS/cm
 VIS_4644,length,11.8,cm
 VIS_4644,oxygen saturation,164.9,%
-VIS_4644,pH,8.5,
+VIS_4644,pH,8.4,
 VIS_4644,sampling distance,150.0,meter
 VIS_4644,temperature,15.9,°C
 VIS_4644,weight,19.00,g
@@ -31458,7 +31459,7 @@ VIS_4645,dissolved oxygen,18.5,mg/L
 VIS_4645,electrical conductivity,2360.0,µS/cm
 VIS_4645,length,12.5,cm
 VIS_4645,oxygen saturation,164.9,%
-VIS_4645,pH,8.5,
+VIS_4645,pH,8.4,
 VIS_4645,sampling distance,150.0,meter
 VIS_4645,temperature,15.9,°C
 VIS_4645,weight,24.40,g
@@ -31466,7 +31467,7 @@ VIS_4646,dissolved oxygen,18.5,mg/L
 VIS_4646,electrical conductivity,2360.0,µS/cm
 VIS_4646,length,13.5,cm
 VIS_4646,oxygen saturation,164.9,%
-VIS_4646,pH,8.5,
+VIS_4646,pH,8.4,
 VIS_4646,sampling distance,150.0,meter
 VIS_4646,temperature,15.9,°C
 VIS_4646,weight,36.50,g
@@ -31474,7 +31475,7 @@ VIS_4647,dissolved oxygen,18.5,mg/L
 VIS_4647,electrical conductivity,2360.0,µS/cm
 VIS_4647,length,14.0,cm
 VIS_4647,oxygen saturation,164.9,%
-VIS_4647,pH,8.5,
+VIS_4647,pH,8.4,
 VIS_4647,sampling distance,150.0,meter
 VIS_4647,temperature,15.9,°C
 VIS_4647,weight,35.50,g
@@ -31482,7 +31483,7 @@ VIS_4648,dissolved oxygen,18.5,mg/L
 VIS_4648,electrical conductivity,2360.0,µS/cm
 VIS_4648,length,13.0,cm
 VIS_4648,oxygen saturation,164.9,%
-VIS_4648,pH,8.5,
+VIS_4648,pH,8.4,
 VIS_4648,sampling distance,150.0,meter
 VIS_4648,temperature,15.9,°C
 VIS_4648,weight,27.80,g
@@ -31490,7 +31491,7 @@ VIS_4649,dissolved oxygen,18.5,mg/L
 VIS_4649,electrical conductivity,2360.0,µS/cm
 VIS_4649,length,10.2,cm
 VIS_4649,oxygen saturation,164.9,%
-VIS_4649,pH,8.5,
+VIS_4649,pH,8.4,
 VIS_4649,sampling distance,150.0,meter
 VIS_4649,temperature,15.9,°C
 VIS_4649,weight,12.00,g
@@ -31504,7 +31505,7 @@ VIS_4650,dissolved oxygen,18.5,mg/L
 VIS_4650,electrical conductivity,2360.0,µS/cm
 VIS_4650,length,13.4,cm
 VIS_4650,oxygen saturation,164.9,%
-VIS_4650,pH,8.5,
+VIS_4650,pH,8.4,
 VIS_4650,sampling distance,150.0,meter
 VIS_4650,temperature,15.9,°C
 VIS_4650,weight,30.60,g
@@ -31512,7 +31513,7 @@ VIS_4651,dissolved oxygen,18.5,mg/L
 VIS_4651,electrical conductivity,2360.0,µS/cm
 VIS_4651,length,14.0,cm
 VIS_4651,oxygen saturation,164.9,%
-VIS_4651,pH,8.5,
+VIS_4651,pH,8.4,
 VIS_4651,sampling distance,150.0,meter
 VIS_4651,temperature,15.9,°C
 VIS_4651,weight,36.50,g
@@ -31520,7 +31521,7 @@ VIS_4652,dissolved oxygen,18.5,mg/L
 VIS_4652,electrical conductivity,2360.0,µS/cm
 VIS_4652,length,11.2,cm
 VIS_4652,oxygen saturation,164.9,%
-VIS_4652,pH,8.5,
+VIS_4652,pH,8.4,
 VIS_4652,sampling distance,150.0,meter
 VIS_4652,temperature,15.9,°C
 VIS_4652,weight,17.10,g
@@ -31528,7 +31529,7 @@ VIS_4653,dissolved oxygen,18.5,mg/L
 VIS_4653,electrical conductivity,2360.0,µS/cm
 VIS_4653,length,12.5,cm
 VIS_4653,oxygen saturation,164.9,%
-VIS_4653,pH,8.5,
+VIS_4653,pH,8.4,
 VIS_4653,sampling distance,150.0,meter
 VIS_4653,temperature,15.9,°C
 VIS_4653,weight,25.20,g
@@ -31536,7 +31537,7 @@ VIS_4654,dissolved oxygen,18.5,mg/L
 VIS_4654,electrical conductivity,2360.0,µS/cm
 VIS_4654,length,12.0,cm
 VIS_4654,oxygen saturation,164.9,%
-VIS_4654,pH,8.5,
+VIS_4654,pH,8.4,
 VIS_4654,sampling distance,150.0,meter
 VIS_4654,temperature,15.9,°C
 VIS_4654,weight,19.40,g
@@ -31544,7 +31545,7 @@ VIS_4655,dissolved oxygen,18.5,mg/L
 VIS_4655,electrical conductivity,2360.0,µS/cm
 VIS_4655,length,12.0,cm
 VIS_4655,oxygen saturation,164.9,%
-VIS_4655,pH,8.5,
+VIS_4655,pH,8.4,
 VIS_4655,sampling distance,150.0,meter
 VIS_4655,temperature,15.9,°C
 VIS_4655,weight,18.20,g
@@ -31552,7 +31553,7 @@ VIS_4656,dissolved oxygen,18.5,mg/L
 VIS_4656,electrical conductivity,2360.0,µS/cm
 VIS_4656,length,15.0,cm
 VIS_4656,oxygen saturation,164.9,%
-VIS_4656,pH,8.5,
+VIS_4656,pH,8.4,
 VIS_4656,sampling distance,150.0,meter
 VIS_4656,temperature,15.9,°C
 VIS_4656,weight,43.60,g
@@ -31560,7 +31561,7 @@ VIS_4657,dissolved oxygen,18.5,mg/L
 VIS_4657,electrical conductivity,2360.0,µS/cm
 VIS_4657,length,8.5,cm
 VIS_4657,oxygen saturation,164.9,%
-VIS_4657,pH,8.5,
+VIS_4657,pH,8.4,
 VIS_4657,sampling distance,150.0,meter
 VIS_4657,temperature,15.9,°C
 VIS_4657,weight,8.30,g
@@ -31570,7 +31571,7 @@ VIS_4662,dissolved oxygen,18.5,mg/L
 VIS_4662,electrical conductivity,2360.0,µS/cm
 VIS_4662,length,16.8,cm
 VIS_4662,oxygen saturation,164.9,%
-VIS_4662,pH,8.5,
+VIS_4662,pH,8.4,
 VIS_4662,sampling distance,150.0,meter
 VIS_4662,temperature,15.9,°C
 VIS_4662,weight,93.80,g
@@ -31578,7 +31579,7 @@ VIS_4663,dissolved oxygen,18.5,mg/L
 VIS_4663,electrical conductivity,2360.0,µS/cm
 VIS_4663,length,16.5,cm
 VIS_4663,oxygen saturation,164.9,%
-VIS_4663,pH,8.5,
+VIS_4663,pH,8.4,
 VIS_4663,sampling distance,150.0,meter
 VIS_4663,temperature,15.9,°C
 VIS_4663,weight,92.10,g
@@ -31586,7 +31587,7 @@ VIS_4664,dissolved oxygen,18.5,mg/L
 VIS_4664,electrical conductivity,2360.0,µS/cm
 VIS_4664,length,19.5,cm
 VIS_4664,oxygen saturation,164.9,%
-VIS_4664,pH,8.5,
+VIS_4664,pH,8.4,
 VIS_4664,sampling distance,150.0,meter
 VIS_4664,temperature,15.9,°C
 VIS_4664,weight,118.20,g
@@ -31594,7 +31595,7 @@ VIS_4665,dissolved oxygen,18.5,mg/L
 VIS_4665,electrical conductivity,2360.0,µS/cm
 VIS_4665,length,11.0,cm
 VIS_4665,oxygen saturation,164.9,%
-VIS_4665,pH,8.5,
+VIS_4665,pH,8.4,
 VIS_4665,sampling distance,150.0,meter
 VIS_4665,temperature,15.9,°C
 VIS_4665,weight,28.90,g
@@ -31602,7 +31603,7 @@ VIS_4666,dissolved oxygen,18.5,mg/L
 VIS_4666,electrical conductivity,2360.0,µS/cm
 VIS_4666,length,9.5,cm
 VIS_4666,oxygen saturation,164.9,%
-VIS_4666,pH,8.5,
+VIS_4666,pH,8.4,
 VIS_4666,sampling distance,150.0,meter
 VIS_4666,temperature,15.9,°C
 VIS_4666,weight,11.60,g
@@ -31610,7 +31611,7 @@ VIS_4667,dissolved oxygen,18.5,mg/L
 VIS_4667,electrical conductivity,2360.0,µS/cm
 VIS_4667,length,18.0,cm
 VIS_4667,oxygen saturation,164.9,%
-VIS_4667,pH,8.5,
+VIS_4667,pH,8.4,
 VIS_4667,sampling distance,150.0,meter
 VIS_4667,temperature,15.9,°C
 VIS_4667,weight,105.50,g
@@ -31618,7 +31619,7 @@ VIS_4668,dissolved oxygen,18.5,mg/L
 VIS_4668,electrical conductivity,2360.0,µS/cm
 VIS_4668,length,17.2,cm
 VIS_4668,oxygen saturation,164.9,%
-VIS_4668,pH,8.5,
+VIS_4668,pH,8.4,
 VIS_4668,sampling distance,150.0,meter
 VIS_4668,temperature,15.9,°C
 VIS_4668,weight,109.00,g
@@ -31626,7 +31627,7 @@ VIS_4669,dissolved oxygen,18.5,mg/L
 VIS_4669,electrical conductivity,2360.0,µS/cm
 VIS_4669,length,9.5,cm
 VIS_4669,oxygen saturation,164.9,%
-VIS_4669,pH,8.5,
+VIS_4669,pH,8.4,
 VIS_4669,sampling distance,150.0,meter
 VIS_4669,temperature,15.9,°C
 VIS_4669,weight,19.00,g
@@ -31634,7 +31635,7 @@ VIS_4670,dissolved oxygen,18.5,mg/L
 VIS_4670,electrical conductivity,2360.0,µS/cm
 VIS_4670,length,9.5,cm
 VIS_4670,oxygen saturation,164.9,%
-VIS_4670,pH,8.5,
+VIS_4670,pH,8.4,
 VIS_4670,sampling distance,150.0,meter
 VIS_4670,temperature,15.9,°C
 VIS_4670,weight,13.10,g
@@ -31642,7 +31643,7 @@ VIS_4671,dissolved oxygen,18.5,mg/L
 VIS_4671,electrical conductivity,2360.0,µS/cm
 VIS_4671,length,16.0,cm
 VIS_4671,oxygen saturation,164.9,%
-VIS_4671,pH,8.5,
+VIS_4671,pH,8.4,
 VIS_4671,sampling distance,150.0,meter
 VIS_4671,temperature,15.9,°C
 VIS_4671,weight,76.50,g
@@ -31650,7 +31651,7 @@ VIS_4672,dissolved oxygen,18.5,mg/L
 VIS_4672,electrical conductivity,2360.0,µS/cm
 VIS_4672,length,8.5,cm
 VIS_4672,oxygen saturation,164.9,%
-VIS_4672,pH,8.5,
+VIS_4672,pH,8.4,
 VIS_4672,sampling distance,150.0,meter
 VIS_4672,temperature,15.9,°C
 VIS_4672,weight,10.50,g
@@ -31658,7 +31659,7 @@ VIS_4673,dissolved oxygen,18.5,mg/L
 VIS_4673,electrical conductivity,2360.0,µS/cm
 VIS_4673,length,10.0,cm
 VIS_4673,oxygen saturation,164.9,%
-VIS_4673,pH,8.5,
+VIS_4673,pH,8.4,
 VIS_4673,sampling distance,150.0,meter
 VIS_4673,temperature,15.9,°C
 VIS_4673,weight,16.20,g
@@ -31666,7 +31667,7 @@ VIS_4674,dissolved oxygen,18.5,mg/L
 VIS_4674,electrical conductivity,2360.0,µS/cm
 VIS_4674,length,14.0,cm
 VIS_4674,oxygen saturation,164.9,%
-VIS_4674,pH,8.5,
+VIS_4674,pH,8.4,
 VIS_4674,sampling distance,150.0,meter
 VIS_4674,temperature,15.9,°C
 VIS_4674,weight,53.60,g
@@ -31674,7 +31675,7 @@ VIS_4675,dissolved oxygen,18.5,mg/L
 VIS_4675,electrical conductivity,2360.0,µS/cm
 VIS_4675,length,12.8,cm
 VIS_4675,oxygen saturation,164.9,%
-VIS_4675,pH,8.5,
+VIS_4675,pH,8.4,
 VIS_4675,sampling distance,150.0,meter
 VIS_4675,temperature,15.9,°C
 VIS_4675,weight,30.70,g
@@ -31682,7 +31683,7 @@ VIS_4676,dissolved oxygen,18.5,mg/L
 VIS_4676,electrical conductivity,2360.0,µS/cm
 VIS_4676,length,11.0,cm
 VIS_4676,oxygen saturation,164.9,%
-VIS_4676,pH,8.5,
+VIS_4676,pH,8.4,
 VIS_4676,sampling distance,150.0,meter
 VIS_4676,temperature,15.9,°C
 VIS_4676,weight,24.50,g
@@ -31690,7 +31691,7 @@ VIS_4677,dissolved oxygen,18.5,mg/L
 VIS_4677,electrical conductivity,2360.0,µS/cm
 VIS_4677,length,12.6,cm
 VIS_4677,oxygen saturation,164.9,%
-VIS_4677,pH,8.5,
+VIS_4677,pH,8.4,
 VIS_4677,sampling distance,150.0,meter
 VIS_4677,temperature,15.9,°C
 VIS_4677,weight,32.00,g
@@ -31698,7 +31699,7 @@ VIS_4678,dissolved oxygen,18.5,mg/L
 VIS_4678,electrical conductivity,2360.0,µS/cm
 VIS_4678,length,14.2,cm
 VIS_4678,oxygen saturation,164.9,%
-VIS_4678,pH,8.5,
+VIS_4678,pH,8.4,
 VIS_4678,sampling distance,150.0,meter
 VIS_4678,temperature,15.9,°C
 VIS_4678,weight,46.50,g
@@ -31708,7 +31709,7 @@ VIS_4683,dissolved oxygen,18.5,mg/L
 VIS_4683,electrical conductivity,2360.0,µS/cm
 VIS_4683,length,8.8,cm
 VIS_4683,oxygen saturation,164.9,%
-VIS_4683,pH,8.5,
+VIS_4683,pH,8.4,
 VIS_4683,sampling distance,150.0,meter
 VIS_4683,temperature,15.9,°C
 VIS_4683,weight,7.40,g
@@ -31716,7 +31717,7 @@ VIS_4684,dissolved oxygen,18.5,mg/L
 VIS_4684,electrical conductivity,2360.0,µS/cm
 VIS_4684,length,7.4,cm
 VIS_4684,oxygen saturation,164.9,%
-VIS_4684,pH,8.5,
+VIS_4684,pH,8.4,
 VIS_4684,sampling distance,150.0,meter
 VIS_4684,temperature,15.9,°C
 VIS_4684,weight,5.00,g
@@ -36344,7 +36345,7 @@ VIS_5998,weight,6229.00,g
 VIS_5999,weight,5000.00,g
 VIS_600,dissolved oxygen,8.7,mg/L
 VIS_600,electrical conductivity,914.0,µS/cm
-VIS_600,pH,7.9,
+VIS_600,pH,7.8,
 VIS_600,temperature,11.6,°C
 VIS_600,weight,99.90,g
 VIS_6000,weight,374.00,g
