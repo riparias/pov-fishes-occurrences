@@ -19,7 +19,6 @@ SELECT
 -- LOCATION
   'Europe'                              AS continent,
   'BE'                                  AS countryCode,
-  o."Waterbody"                         AS waterBody,
   'East Flanders'                       AS stateProvince,
   o."Location"                          AS locationRemarks,
   printf('%.5f', ROUND(o."Y", 5))       AS decimalLatitude,
