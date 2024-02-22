@@ -27,7 +27,6 @@ testthat::test_that("Right columns in right order: event core", {
     "eventDate",
     "continent",
     "countryCode",
-    "waterBody",
     "stateProvince",
     "locationRemarks",
     "decimalLatitude",
