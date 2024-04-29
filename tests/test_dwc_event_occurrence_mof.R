@@ -95,6 +95,13 @@ testthat::test_that("verbatim coordinates are always positive", {
   testthat::expect_true(all(dwc_event$verbatimLongitude > 0))
 })
 
+testthat::test_that("countryCode is always present and always equal to BE", {
+  # no NAs present
+  testthat::expect_true(all(!is.na(dwc_event$countryCode)))
+  # all events have countryCode = "BE"
+  testthat::expect_true(all(dwc_event$countryCode == "BE"))
+})
+
 # occurrence extension
 
 testthat::test_that("Right columns in right order: occurrence extension", {
