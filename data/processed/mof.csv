@@ -28777,54 +28777,347 @@ VIS_24337,weight,13.70,g
 VIS_24338,length,9.0,cm
 VIS_24338,sampling distance,100.0,meter
 VIS_24338,weight,13.40,g
+VIS_24339,length,12.0,cm
+VIS_24339,sampling distance,100.0,meter
+VIS_24339,weight,18.20,g
 VIS_2434,length,9.0,cm
 VIS_2434,sampling distance,75.0,meter
 VIS_2434,weight,11.40,g
+VIS_24340,length,10.8,cm
+VIS_24340,sampling distance,100.0,meter
+VIS_24340,weight,13.70,g
+VIS_24341,length,11.0,cm
+VIS_24341,sampling distance,100.0,meter
+VIS_24341,weight,14.60,g
+VIS_24342,length,10.8,cm
+VIS_24342,sampling distance,100.0,meter
+VIS_24342,weight,13.70,g
+VIS_24343,length,11.0,cm
+VIS_24343,sampling distance,100.0,meter
+VIS_24343,weight,14.30,g
+VIS_24344,length,11.8,cm
+VIS_24344,sampling distance,100.0,meter
+VIS_24344,weight,22.50,g
+VIS_24345,length,10.0,cm
+VIS_24345,sampling distance,100.0,meter
+VIS_24345,weight,11.40,g
+VIS_24346,length,6.5,cm
+VIS_24346,sampling distance,100.0,meter
+VIS_24346,weight,3.10,g
+VIS_24347,length,7.2,cm
+VIS_24347,sampling distance,100.0,meter
+VIS_24347,weight,3.50,g
+VIS_24348,length,11.0,cm
+VIS_24348,sampling distance,100.0,meter
+VIS_24348,weight,15.30,g
+VIS_24349,length,6.2,cm
+VIS_24349,sampling distance,100.0,meter
+VIS_24349,weight,2.50,g
 VIS_2435,length,5.0,cm
 VIS_2435,sampling distance,75.0,meter
 VIS_2435,weight,1.70,g
+VIS_24350,length,6.0,cm
+VIS_24350,sampling distance,100.0,meter
+VIS_24350,weight,2.60,g
+VIS_24351,length,6.4,cm
+VIS_24351,sampling distance,100.0,meter
+VIS_24351,weight,2.90,g
+VIS_24352,length,6.0,cm
+VIS_24352,sampling distance,100.0,meter
+VIS_24352,weight,2.10,g
+VIS_24353,length,6.2,cm
+VIS_24353,sampling distance,100.0,meter
+VIS_24353,weight,2.60,g
+VIS_24354,length,6.0,cm
+VIS_24354,sampling distance,100.0,meter
+VIS_24354,weight,2.10,g
+VIS_24355,length,6.0,cm
+VIS_24355,sampling distance,100.0,meter
+VIS_24355,weight,2.20,g
 VIS_2436,length,7.0,cm
 VIS_2436,sampling distance,75.0,meter
 VIS_2436,weight,4.10,g
+VIS_24365,sampling distance,100.0,meter
+VIS_24365,weight,95.20,g
+VIS_24367,length,11.5,cm
+VIS_24367,sampling distance,100.0,meter
+VIS_24367,weight,17.30,g
+VIS_24368,length,10.8,cm
+VIS_24368,sampling distance,100.0,meter
+VIS_24368,weight,14.70,g
+VIS_24369,length,9.0,cm
+VIS_24369,sampling distance,100.0,meter
+VIS_24369,weight,9.20,g
 VIS_2437,length,5.8,cm
 VIS_2437,sampling distance,75.0,meter
 VIS_2437,weight,2.70,g
+VIS_24375,length,6.3,cm
+VIS_24375,sampling distance,100.0,meter
+VIS_24375,weight,2.50,g
+VIS_24376,sampling distance,100.0,meter
+VIS_24376,weight,57.40,g
+VIS_24378,length,9.8,cm
+VIS_24378,sampling distance,100.0,meter
+VIS_24378,weight,10.10,g
+VIS_24379,length,10.0,cm
+VIS_24379,sampling distance,100.0,meter
+VIS_24379,weight,9.70,g
 VIS_2438,length,6.8,cm
 VIS_2438,sampling distance,75.0,meter
 VIS_2438,weight,4.40,g
+VIS_24380,length,6.6,cm
+VIS_24380,sampling distance,100.0,meter
+VIS_24380,weight,2.40,g
+VIS_24381,length,5.3,cm
+VIS_24381,sampling distance,100.0,meter
+VIS_24381,weight,1.50,g
+VIS_24382,length,10.0,cm
+VIS_24382,sampling distance,100.0,meter
+VIS_24382,weight,12.10,g
+VIS_24383,length,5.0,cm
+VIS_24383,sampling distance,100.0,meter
+VIS_24383,weight,1.00,g
+VIS_24384,length,9.0,cm
+VIS_24384,sampling distance,100.0,meter
+VIS_24384,weight,7.50,g
+VIS_24385,length,6.0,cm
+VIS_24385,sampling distance,100.0,meter
+VIS_24385,weight,2.00,g
+VIS_24386,length,5.5,cm
+VIS_24386,sampling distance,100.0,meter
+VIS_24386,weight,1.70,g
+VIS_24387,length,6.8,cm
+VIS_24387,sampling distance,100.0,meter
+VIS_24387,weight,3.30,g
+VIS_24388,length,5.5,cm
+VIS_24388,sampling distance,100.0,meter
+VIS_24388,weight,1.50,g
+VIS_24389,length,5.8,cm
+VIS_24389,sampling distance,100.0,meter
+VIS_24389,weight,1.70,g
 VIS_2439,length,12.5,cm
 VIS_2439,sampling distance,75.0,meter
 VIS_2439,weight,31.80,g
+VIS_24390,length,6.8,cm
+VIS_24390,sampling distance,100.0,meter
+VIS_24390,weight,2.60,g
+VIS_24391,length,6.0,cm
+VIS_24391,sampling distance,100.0,meter
+VIS_24391,weight,1.80,g
+VIS_24392,length,6.6,cm
+VIS_24392,sampling distance,100.0,meter
+VIS_24392,weight,2.70,g
+VIS_24393,length,6.0,cm
+VIS_24393,sampling distance,100.0,meter
+VIS_24393,weight,1.80,g
+VIS_24394,length,5.7,cm
+VIS_24394,sampling distance,100.0,meter
+VIS_24394,weight,1.30,g
+VIS_24395,length,6.0,cm
+VIS_24395,sampling distance,100.0,meter
+VIS_24395,weight,1.50,g
+VIS_24396,length,5.0,cm
+VIS_24396,sampling distance,100.0,meter
+VIS_24396,weight,0.90,g
+VIS_24397,length,6.2,cm
+VIS_24397,sampling distance,100.0,meter
+VIS_24397,weight,2.10,g
+VIS_24398,length,5.2,cm
+VIS_24398,sampling distance,100.0,meter
+VIS_24398,weight,1.60,g
+VIS_24399,length,5.9,cm
+VIS_24399,sampling distance,100.0,meter
+VIS_24399,weight,2.00,g
 VIS_2440,length,11.0,cm
 VIS_2440,sampling distance,75.0,meter
 VIS_2440,weight,20.20,g
+VIS_24400,length,6.3,cm
+VIS_24400,sampling distance,100.0,meter
+VIS_24400,weight,2.70,g
+VIS_24401,length,6.1,cm
+VIS_24401,sampling distance,100.0,meter
+VIS_24401,weight,2.20,g
+VIS_24402,length,6.2,cm
+VIS_24402,sampling distance,100.0,meter
+VIS_24402,weight,2.10,g
+VIS_24403,length,6.0,cm
+VIS_24403,sampling distance,100.0,meter
+VIS_24403,weight,1.60,g
+VIS_24404,length,6.5,cm
+VIS_24404,sampling distance,100.0,meter
+VIS_24404,weight,2.40,g
+VIS_24405,length,5.5,cm
+VIS_24405,sampling distance,100.0,meter
+VIS_24405,weight,1.50,g
+VIS_24406,length,5.8,cm
+VIS_24406,sampling distance,100.0,meter
+VIS_24406,weight,1.10,g
+VIS_24407,length,6.1,cm
+VIS_24407,sampling distance,100.0,meter
+VIS_24407,weight,2.10,g
+VIS_24408,length,5.2,cm
+VIS_24408,sampling distance,100.0,meter
+VIS_24408,weight,1.20,g
+VIS_24409,length,5.1,cm
+VIS_24409,sampling distance,100.0,meter
+VIS_24409,weight,1.20,g
 VIS_2441,length,8.0,cm
 VIS_2441,sampling distance,75.0,meter
 VIS_2441,weight,7.60,g
+VIS_24410,length,4.6,cm
+VIS_24410,sampling distance,100.0,meter
+VIS_24410,weight,0.90,g
+VIS_24411,length,6.5,cm
+VIS_24411,sampling distance,100.0,meter
+VIS_24411,weight,2.20,g
+VIS_24412,length,6.0,cm
+VIS_24412,sampling distance,100.0,meter
+VIS_24412,weight,2.00,g
+VIS_24413,length,4.8,cm
+VIS_24413,sampling distance,100.0,meter
+VIS_24413,weight,0.80,g
+VIS_24414,length,5.9,cm
+VIS_24414,sampling distance,100.0,meter
+VIS_24414,weight,1.70,g
+VIS_24415,length,4.8,cm
+VIS_24415,sampling distance,100.0,meter
+VIS_24415,weight,0.80,g
+VIS_24416,length,5.4,cm
+VIS_24416,sampling distance,100.0,meter
+VIS_24416,weight,1.50,g
+VIS_24417,length,5.0,cm
+VIS_24417,sampling distance,100.0,meter
+VIS_24417,weight,1.20,g
 VIS_2442,length,8.4,cm
 VIS_2442,sampling distance,75.0,meter
 VIS_2442,weight,8.70,g
+VIS_24428,sampling distance,100.0,meter
+VIS_24428,weight,86.00,g
 VIS_2443,length,9.2,cm
 VIS_2443,sampling distance,75.0,meter
 VIS_2443,weight,11.30,g
 VIS_2444,length,7.8,cm
 VIS_2444,sampling distance,75.0,meter
 VIS_2444,weight,8.00,g
+VIS_24449,length,9.0,cm
+VIS_24449,sampling distance,100.0,meter
+VIS_24449,weight,8.30,g
 VIS_2445,length,10.1,cm
 VIS_2445,sampling distance,75.0,meter
 VIS_2445,weight,16.10,g
+VIS_24450,length,9.0,cm
+VIS_24450,sampling distance,100.0,meter
+VIS_24450,weight,8.00,g
+VIS_24451,length,8.0,cm
+VIS_24451,sampling distance,100.0,meter
+VIS_24451,weight,5.00,g
+VIS_24452,length,9.0,cm
+VIS_24452,sampling distance,100.0,meter
+VIS_24452,weight,7.60,g
+VIS_24453,length,9.3,cm
+VIS_24453,sampling distance,100.0,meter
+VIS_24453,weight,8.80,g
+VIS_24454,length,12.7,cm
+VIS_24454,sampling distance,100.0,meter
+VIS_24454,weight,23.50,g
+VIS_24455,length,9.0,cm
+VIS_24455,sampling distance,100.0,meter
+VIS_24455,weight,8.70,g
+VIS_24456,length,9.8,cm
+VIS_24456,sampling distance,100.0,meter
+VIS_24456,weight,11.50,g
+VIS_24457,length,8.5,cm
+VIS_24457,sampling distance,100.0,meter
+VIS_24457,weight,7.30,g
+VIS_24458,length,11.0,cm
+VIS_24458,sampling distance,100.0,meter
+VIS_24458,weight,14.30,g
+VIS_24459,length,7.7,cm
+VIS_24459,sampling distance,100.0,meter
+VIS_24459,weight,7.00,g
 VIS_2446,length,7.5,cm
 VIS_2446,sampling distance,75.0,meter
 VIS_2446,weight,7.10,g
+VIS_24460,length,7.0,cm
+VIS_24460,sampling distance,100.0,meter
+VIS_24460,weight,3.10,g
+VIS_24461,length,7.2,cm
+VIS_24461,sampling distance,100.0,meter
+VIS_24461,weight,2.50,g
+VIS_24462,length,9.2,cm
+VIS_24462,sampling distance,100.0,meter
+VIS_24462,weight,8.20,g
+VIS_24463,length,13.0,cm
+VIS_24463,sampling distance,100.0,meter
+VIS_24463,weight,23.70,g
+VIS_24464,length,9.0,cm
+VIS_24464,sampling distance,100.0,meter
+VIS_24464,weight,7.40,g
+VIS_24465,length,8.3,cm
+VIS_24465,sampling distance,100.0,meter
+VIS_24465,weight,6.10,g
+VIS_24466,length,7.8,cm
+VIS_24466,sampling distance,100.0,meter
+VIS_24466,weight,5.20,g
+VIS_24467,length,7.1,cm
+VIS_24467,sampling distance,100.0,meter
+VIS_24467,weight,3.80,g
+VIS_24468,length,6.7,cm
+VIS_24468,sampling distance,100.0,meter
+VIS_24468,weight,4.10,g
+VIS_24469,length,7.8,cm
+VIS_24469,sampling distance,100.0,meter
+VIS_24469,weight,5.20,g
 VIS_2447,length,7.0,cm
 VIS_2447,sampling distance,75.0,meter
 VIS_2447,weight,5.10,g
+VIS_24470,length,7.5,cm
+VIS_24470,sampling distance,100.0,meter
+VIS_24470,weight,4.30,g
+VIS_24471,length,7.2,cm
+VIS_24471,sampling distance,100.0,meter
+VIS_24471,weight,3.30,g
+VIS_24472,length,7.2,cm
+VIS_24472,sampling distance,100.0,meter
+VIS_24472,weight,3.80,g
+VIS_24473,length,7.2,cm
+VIS_24473,sampling distance,100.0,meter
+VIS_24473,weight,4.00,g
+VIS_24474,length,6.1,cm
+VIS_24474,sampling distance,100.0,meter
+VIS_24474,weight,2.40,g
+VIS_24475,length,7.8,cm
+VIS_24475,sampling distance,100.0,meter
+VIS_24475,weight,3.90,g
+VIS_24476,length,7.7,cm
+VIS_24476,sampling distance,100.0,meter
+VIS_24476,weight,5.00,g
+VIS_24477,length,9.9,cm
+VIS_24477,sampling distance,100.0,meter
+VIS_24477,weight,9.80,g
+VIS_24478,length,8.8,cm
+VIS_24478,sampling distance,100.0,meter
+VIS_24478,weight,5.90,g
+VIS_24479,length,8.3,cm
+VIS_24479,sampling distance,100.0,meter
+VIS_24479,weight,6.20,g
 VIS_2448,length,7.5,cm
 VIS_2448,sampling distance,75.0,meter
 VIS_2448,weight,6.10,g
+VIS_24480,length,7.8,cm
+VIS_24480,sampling distance,100.0,meter
+VIS_24480,weight,4.40,g
 VIS_2449,length,8.2,cm
 VIS_2449,sampling distance,75.0,meter
 VIS_2449,weight,9.00,g
+VIS_24496,length,6.1,cm
+VIS_24496,sampling distance,100.0,meter
+VIS_24496,weight,2.10,g
+VIS_24497,length,5.7,cm
+VIS_24497,sampling distance,100.0,meter
+VIS_24497,weight,1.80,g
+VIS_24498,sampling distance,100.0,meter
+VIS_24498,weight,167.50,g
 VIS_2450,length,6.8,cm
 VIS_2450,sampling distance,75.0,meter
 VIS_2450,weight,4.00,g
