@@ -59,6 +59,7 @@ SELECT
     WHEN o."ScientificName" = 'Ctenopharyngodon idellia' THEN 'Ctenopharyngodon idellia'
     WHEN o."ScientificName" = 'Sprattus sprattus' THEN 'Sprattus sprattus'
     WHEN o."ScientificName" = 'Trisopterus luscus' THEN 'Trisopterus luscus'
+    WHEN o."ScientificName" = 'Umbra Pygmaea' THEN 'Umbra pygmaea'
     ELSE NULL
   END                                   AS scientificName,
   o."Kingdom"                           AS kingdom, -- Animalia
@@ -102,6 +103,7 @@ SELECT
     WHEN o.DutchName = 'Zeewolf' THEN 'zeewolf'
     WHEN o.DutchName = 'Sprot' THEN 'sprot'
     WHEN o.DutchName = 'Steenbolk' THEN 'steenbolk'
+    WHEN o.DutchName = 'Amerikaanse hondsvis' THEN 'Amerikaanse hondsvis'
     ELSE NULL
   END                                   AS vernacularName
   FROM occurrences AS o
