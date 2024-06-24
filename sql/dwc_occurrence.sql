@@ -42,7 +42,7 @@ SELECT
     WHEN o."ScientificName" = 'Hypophthalmichthys molitrix' THEN 'Hypophthalmichthys molitrix'
     WHEN o."ScientificName" = 'Lepomis gibbosus' THEN 'Lepomis gibbosus'
     WHEN o."ScientificName" = 'Leucaspius delineatus' THEN 'Leucaspius delineatus'
-    WHEN o."ScientificName" = 'Leuciscus cephalus' THEN 'Leuciscus cephalus'
+    WHEN o."ScientificName" = 'Leuciscus cephalus' THEN 'Squalius cephalus'
     WHEN o."ScientificName" = 'Leuciscus idus' THEN 'Leuciscus idus'
     WHEN o."ScientificName" = 'Leuciscus leuciscus' THEN 'Leuciscus leuciscus'
     WHEN o."ScientificName" = 'Leuciscus rutilus' THEN 'Leuciscus rutilus'
