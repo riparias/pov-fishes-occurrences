@@ -47,7 +47,7 @@ SELECT
     WHEN o."ScientificName" = 'Leuciscus leuciscus' THEN 'Leuciscus leuciscus'
     WHEN o."ScientificName" = 'Leuciscus rutilus' THEN 'Leuciscus rutilus'
     WHEN o."ScientificName" = 'Lithobates catesbeianus' THEN 'Lithobates catesbeianus'
-    WHEN o."ScientificName" = 'Liza ramada' THEN 'Liza ramada'
+    WHEN o."ScientificName" = 'Liza ramada' THEN 'Chelon ramada'
     WHEN o."ScientificName" = 'Neogobius melanostomus' THEN 'Neogobius melanostomus'
     WHEN o."ScientificName" = 'Oncorhynchus mykiss' THEN 'Oncorhynchus mykiss'
     WHEN o."ScientificName" = 'Osmerus eperlanus' THEN 'Osmerus eperlanus'
