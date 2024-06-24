@@ -38,7 +38,7 @@ SELECT
     WHEN o."ScientificName" = 'Gasterosteus aculeatus' THEN 'Gasterosteus aculeatus'
     WHEN o."ScientificName" = 'Gobio gobio' THEN 'Gobio gobio'
     WHEN o."ScientificName" = 'Gymnocephalus cernua' THEN 'Gymnocephalus cernua'
-    WHEN o."ScientificName" = 'Gymnocephalus cernuus' THEN 'Gymnocephalus cernuus'
+    WHEN o."ScientificName" = 'Gymnocephalus cernuus' THEN 'Gymnocephalus cernua'
     WHEN o."ScientificName" = 'Hypophthalmichthys molitrix' THEN 'Hypophthalmichthys molitrix'
     WHEN o."ScientificName" = 'Lepomis gibbosus' THEN 'Lepomis gibbosus'
     WHEN o."ScientificName" = 'Leucaspius delineatus' THEN 'Leucaspius delineatus'

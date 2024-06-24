@@ -172,7 +172,6 @@ testthat::test_that("scientificName is never NA and one of the list", {
     "Gasterosteus aculeatus",
     "Gobio gobio",
     "Gymnocephalus cernua",
-    "Gymnocephalus cernuus",
     "Hypophthalmichthys molitrix",
     "Lepomis gibbosus",
     "Leucaspius delineatus",
