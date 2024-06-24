@@ -60,6 +60,17 @@ SELECT
     WHEN o."ScientificName" = 'Sprattus sprattus' THEN 'Sprattus sprattus'
     WHEN o."ScientificName" = 'Trisopterus luscus' THEN 'Trisopterus luscus'
     WHEN o."ScientificName" = 'Umbra Pygmaea' THEN 'Umbra pygmaea'
+    WHEN o."ScientificName" = 'Leucaspius delineatus' THEN 'Leucaspius delineatus'
+    WHEN o."ScientificName" = 'Barbatula barbatulus' THEN 'Barbatula barbatulus'
+    WHEN o."ScientificName" = 'Leuciscus leuciscus' THEN 'Leuciscus leuciscus'
+    WHEN o."ScientificName" = 'Leuciscus cephalus' THEN 'Leuciscus cephalus'
+    WHEN o."ScientificName" = 'Leuciscus idus' THEN 'Leuciscus idus'
+    WHEN o."ScientificName" = 'Alburnus alburnus' THEN 'Alburnus alburnus'
+    WHEN o."ScientificName" = 'Rhodeus sericeus' THEN 'Rhodeus sericeus'
+    WHEN o."ScientificName" = 'Pomatoschistus microps' THEN 'Pomatoschistus microps'
+    WHEN o."ScientificName" = 'Osmerus eperlanus' THEN 'Osmerus eperlanus'
+    WHEN o."ScientificName" = 'Ameiurus nebulosus' THEN 'Ameiurus nebulosus'
+    WHEN o."ScientificName" = 'Liza ramada' THEN 'Liza ramada'
     ELSE NULL
   END                                   AS scientificName,
   o."Kingdom"                           AS kingdom, -- Animalia
@@ -104,6 +115,17 @@ SELECT
     WHEN o.DutchName = 'Sprot' THEN 'sprot'
     WHEN o.DutchName = 'Steenbolk' THEN 'steenbolk'
     WHEN o.DutchName = 'Amerikaanse hondsvis' THEN 'Amerikaanse hondsvis'
+    WHEN o.DutchName = 'Vetje' THEN 'vetje'
+    WHEN o.DutchName = 'bermpje' THEN 'bermpje'
+    WHEN o.DutchName = 'serpeling' THEN 'serpeling'
+    WHEN o.DutchName = 'kopvoorn' THEN 'kopvoorn'
+    WHEN o.DutchName = 'winde' THEN 'winde'
+    WHEN o.DutchName = 'Alver' THEN 'alver'
+    WHEN o.DutchName = 'Bittervoorn' THEN 'bittervoorn'
+    WHEN o.DutchName = 'brakwatergrondel' THEN 'brakwatergrondel'
+    WHEN o.DutchName = 'spiering' THEN 'spiering'
+    WHEN o.DutchName = 'bruine Amerikaanse dwergmeerval' THEN 'bruine Amerikaanse dwergmeerval'
+    WHEN o.DutchName = 'Dunlipharder' THEN 'dunlipharder'
     ELSE NULL
   END                                   AS vernacularName
   FROM occurrences AS o
