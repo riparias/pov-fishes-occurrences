@@ -164,7 +164,6 @@ testthat::test_that("scientificName is never NA and one of the list", {
     "Carassius auratus gibelio",
     "Carassius carassius",
     "Ctenopharyngodon idella",
-    "Ctenopharyngodon idellia",
     "Cyprinus carpio",
     "Dicentrarchus labrax",
     "Eriocheir sinensis",

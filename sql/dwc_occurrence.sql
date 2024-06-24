@@ -29,7 +29,7 @@ SELECT
     WHEN o."ScientificName" = 'Carassius auratus gibelio' THEN 'Carassius auratus gibelio'
     WHEN o."ScientificName" = 'Carassius carassius' THEN 'Carassius carassius'
     WHEN o."ScientificName" = 'Ctenopharyngodon idella' THEN 'Ctenopharyngodon idella'
-    WHEN o."ScientificName" = 'Ctenopharyngodon idellia' THEN 'Ctenopharyngodon idellia'
+    WHEN o."ScientificName" = 'Ctenopharyngodon idellia' THEN 'Ctenopharyngodon idella'
     WHEN o."ScientificName" = 'Cyprinus carpio' THEN 'Cyprinus carpio'
     WHEN o."ScientificName" = 'Dicentrarchus labrax' THEN 'Dicentrarchus labrax'
     WHEN o."ScientificName" = 'Eriocheir sinensis' THEN 'Eriocheir sinensis'
