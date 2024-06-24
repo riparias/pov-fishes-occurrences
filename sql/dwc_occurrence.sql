@@ -17,7 +17,7 @@ SELECT
 
 -- TAXON
   CASE
-    WHEN o."ScientificName" = 'Abramis bjoerkna' THEN 'Abramis bjoerkna'
+    WHEN o."ScientificName" = 'Abramis bjoerkna' THEN 'Blicca bjoerkna'
     WHEN o."ScientificName" = 'Abramis Brama' THEN 'Abramis brama'
     WHEN o."ScientificName" = 'Alburnus alburnus' THEN 'Alburnus alburnus'
     WHEN o."ScientificName" = 'Ameiurus nebulosus' THEN 'Ameiurus nebulosus'

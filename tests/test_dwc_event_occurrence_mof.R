@@ -153,7 +153,6 @@ testthat::test_that(
 
 testthat::test_that("scientificName is never NA and one of the list", {
   species <- c(
-    "Abramis bjoerkna",
     "Abramis brama",
     "Alburnus alburnus",
     "Ameiurus nebulosus",
