@@ -1,29 +1,16 @@
 eventID,basisOfRecord,occurrenceID,individualCount,identificationVerificationStatus,scientificName,kingdom,vernacularName
 VIS_311,HumanObservation,VIS_311,5,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_312,HumanObservation,VIS_312,3,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_313,HumanObservation,VIS_313,2,verified by experts,Blicca bjoerkna,Animalia,kolblei
-VIS_314,HumanObservation,VIS_314,1,verified by experts,Tinca tinca,Animalia,zeelt
-VIS_315,HumanObservation,VIS_315,2,verified by experts,Esox lucius,Animalia,snoek
 VIS_322,HumanObservation,VIS_322,260,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_323,HumanObservation,VIS_323,2,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
 VIS_324,HumanObservation,VIS_324,2,verified by experts,Abramis brama,Animalia,brasem
-VIS_325,HumanObservation,VIS_325,20,verified by experts,Blicca bjoerkna,Animalia,kolblei
-VIS_326,HumanObservation,VIS_326,1,verified by experts,Tinca tinca,Animalia,zeelt
-VIS_327,HumanObservation,VIS_327,2,verified by experts,Leucaspius delineatus,Animalia,vetje
 VIS_328,HumanObservation,VIS_328,6,verified by experts,Perca fluviatilis,Animalia,baars
-VIS_329,HumanObservation,VIS_329,8,verified by experts,Esox lucius,Animalia,snoek
 VIS_394,HumanObservation,VIS_394,2,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_396,HumanObservation,VIS_396,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_397,HumanObservation,VIS_397,2,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_398,HumanObservation,VIS_398,52,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_399,HumanObservation,VIS_399,2,verified by experts,Pungitius pungitius,Animalia,tiendoornige stekelbaars
 VIS_400,HumanObservation,VIS_400,1,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_401,HumanObservation,VIS_401,3,verified by experts,Carassius auratus gibelio,Animalia,giebel
 VIS_402,HumanObservation,VIS_402,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_404,HumanObservation,VIS_404,16,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_405,HumanObservation,VIS_405,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_406,HumanObservation,VIS_406,3,verified by experts,Blicca bjoerkna,Animalia,kolblei
-VIS_407,HumanObservation,VIS_407,92,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
 VIS_408,HumanObservation,VIS_408,13,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_409,HumanObservation,VIS_409,2,verified by experts,Pungitius pungitius,Animalia,tiendoornige stekelbaars
 VIS_410,HumanObservation,VIS_410,7,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
@@ -33,81 +20,53 @@ VIS_418,HumanObservation,VIS_418,50,verified by experts,Gasterosteus aculeatus,A
 VIS_419,HumanObservation,VIS_419,66,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_421,HumanObservation,VIS_421,50,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_422,HumanObservation,VIS_422,3,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_423,HumanObservation,VIS_423,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_424,HumanObservation,VIS_424,6,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_425,HumanObservation,VIS_425,45,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_427,HumanObservation,VIS_427,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_433,HumanObservation,VIS_433,50,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_434,HumanObservation,VIS_434,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_435,HumanObservation,VIS_435,71,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_436,HumanObservation,VIS_436,2,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_437,HumanObservation,VIS_437,4,verified by experts,Carassius auratus auratus,Animalia,goudvis
-VIS_440,HumanObservation,VIS_440,25,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_441,HumanObservation,VIS_441,2,verified by experts,Tinca tinca,Animalia,zeelt
 VIS_442,HumanObservation,VIS_442,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_443,HumanObservation,VIS_443,1,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_444,HumanObservation,VIS_444,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
-VIS_445,HumanObservation,VIS_445,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
 VIS_446,HumanObservation,VIS_446,5,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_447,HumanObservation,VIS_447,1,verified by experts,Carassius auratus auratus,Animalia,goudvis
-VIS_449,HumanObservation,VIS_449,3,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_450,HumanObservation,VIS_450,5,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_451,HumanObservation,VIS_451,1,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_452,HumanObservation,VIS_452,4,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_453,HumanObservation,VIS_453,14,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_454,HumanObservation,VIS_454,5,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_455,HumanObservation,VIS_455,3,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_456,HumanObservation,VIS_456,16,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_457,HumanObservation,VIS_457,50,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_458,HumanObservation,VIS_458,4,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_459,HumanObservation,VIS_459,54,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_460,HumanObservation,VIS_460,6,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_461,HumanObservation,VIS_461,1,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_462,HumanObservation,VIS_462,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
 VIS_463,HumanObservation,VIS_463,54,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_464,HumanObservation,VIS_464,20,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_465,HumanObservation,VIS_465,3,verified by experts,Carassius auratus auratus,Animalia,goudvis
 VIS_466,HumanObservation,VIS_466,84,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_467,HumanObservation,VIS_467,4,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_468,HumanObservation,VIS_468,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_470,HumanObservation,VIS_470,9,verified by experts,Leuciscus leuciscus,Animalia,serpeling
 VIS_471,HumanObservation,VIS_471,4,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_472,HumanObservation,VIS_472,9,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_473,HumanObservation,VIS_473,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
 VIS_474,HumanObservation,VIS_474,55,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_475,HumanObservation,VIS_475,53,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_476,HumanObservation,VIS_476,2,verified by experts,Leuciscus leuciscus,Animalia,serpeling
 VIS_477,HumanObservation,VIS_477,10,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_478,HumanObservation,VIS_478,6,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_479,HumanObservation,VIS_479,4,verified by experts,Leuciscus leuciscus,Animalia,serpeling
 VIS_480,HumanObservation,VIS_480,32,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_481,HumanObservation,VIS_481,35,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_482,HumanObservation,VIS_482,50,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_483,HumanObservation,VIS_483,7,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_484,HumanObservation,VIS_484,1,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_489,HumanObservation,VIS_489,2,verified by experts,Leuciscus leuciscus,Animalia,serpeling
 VIS_491,HumanObservation,VIS_491,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_492,HumanObservation,VIS_492,59,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_494,HumanObservation,VIS_494,11,verified by experts,Leuciscus leuciscus,Animalia,serpeling
 VIS_496,HumanObservation,VIS_496,9,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_497,HumanObservation,VIS_497,21,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_498,HumanObservation,VIS_498,11,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_499,HumanObservation,VIS_499,100,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_500,HumanObservation,VIS_500,2,verified by experts,Carassius auratus auratus,Animalia,goudvis
-VIS_501,HumanObservation,VIS_501,1,verified by experts,Leuciscus leuciscus,Animalia,serpeling
 VIS_502,HumanObservation,VIS_502,26,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_505,HumanObservation,VIS_505,19,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_508,HumanObservation,VIS_508,22,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_509,HumanObservation,VIS_509,5,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_511,HumanObservation,VIS_511,3,verified by experts,Leuciscus leuciscus,Animalia,serpeling
 VIS_512,HumanObservation,VIS_512,2,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_513,HumanObservation,VIS_513,8,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_515,HumanObservation,VIS_515,219,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_516,HumanObservation,VIS_516,5,verified by experts,Barbatula barbatulus,Animalia,bermpje
-VIS_517,HumanObservation,VIS_517,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_519,HumanObservation,VIS_519,3,verified by experts,Leuciscus leuciscus,Animalia,serpeling
 VIS_520,HumanObservation,VIS_520,36,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_521,HumanObservation,VIS_521,6,verified by experts,Carassius auratus gibelio,Animalia,giebel
 VIS_522,HumanObservation,VIS_522,5,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_523,HumanObservation,VIS_523,2,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_524,HumanObservation,VIS_524,44,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
@@ -132,42 +91,24 @@ VIS_577,HumanObservation,VIS_577,1,verified by experts,Barbatula barbatulus,Anim
 VIS_578,HumanObservation,VIS_578,1,verified by experts,Pungitius pungitius,Animalia,tiendoornige stekelbaars
 VIS_579,HumanObservation,VIS_579,15,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_580,HumanObservation,VIS_580,2,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_581,HumanObservation,VIS_581,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_582,HumanObservation,VIS_582,2,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
 VIS_583,HumanObservation,VIS_583,13,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_587,HumanObservation,VIS_587,50,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_588,HumanObservation,VIS_588,18,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_590,HumanObservation,VIS_590,39,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_591,HumanObservation,VIS_591,16,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_592,HumanObservation,VIS_592,2,verified by experts,Abramis brama,Animalia,brasem
-VIS_593,HumanObservation,VIS_593,2,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_594,HumanObservation,VIS_594,6,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_596,HumanObservation,VIS_596,1,verified by experts,Oncorhynchus mykiss,Animalia,regenboogforel
-VIS_597,HumanObservation,VIS_597,3,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_598,HumanObservation,VIS_598,2,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_599,HumanObservation,VIS_599,1,verified by experts,Tinca tinca,Animalia,zeelt
 VIS_600,HumanObservation,VIS_600,27,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_601,HumanObservation,VIS_601,100,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_602,HumanObservation,VIS_602,51,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_603,HumanObservation,VIS_603,1,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_604,HumanObservation,VIS_604,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_606,HumanObservation,VIS_606,6,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_608,HumanObservation,VIS_608,34,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_610,HumanObservation,VIS_610,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
-VIS_611,HumanObservation,VIS_611,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_613,HumanObservation,VIS_613,1,verified by experts,Oncorhynchus mykiss,Animalia,regenboogforel
-VIS_614,HumanObservation,VIS_614,1,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_615,HumanObservation,VIS_615,3,verified by experts,Tinca tinca,Animalia,zeelt
 VIS_616,HumanObservation,VIS_616,16,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_618,HumanObservation,VIS_618,20,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_621,HumanObservation,VIS_621,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_623,HumanObservation,VIS_623,1,verified by experts,Esox lucius,Animalia,snoek
 VIS_627,HumanObservation,VIS_627,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_631,HumanObservation,VIS_631,93,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_632,HumanObservation,VIS_632,104,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_634,HumanObservation,VIS_634,2,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_637,HumanObservation,VIS_637,2,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_638,HumanObservation,VIS_638,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
 VIS_642,HumanObservation,VIS_642,99,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_643,HumanObservation,VIS_643,14,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_645,HumanObservation,VIS_645,103,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
@@ -175,31 +116,16 @@ VIS_646,HumanObservation,VIS_646,43,verified by experts,Barbatula barbatulus,Ani
 VIS_649,HumanObservation,VIS_649,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_650,HumanObservation,VIS_650,10,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_651,HumanObservation,VIS_651,10,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_652,HumanObservation,VIS_652,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
 VIS_654,HumanObservation,VIS_654,53,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_655,HumanObservation,VIS_655,3,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_656,HumanObservation,VIS_656,26,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_657,HumanObservation,VIS_657,92,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_658,HumanObservation,VIS_658,1,verified by experts,Abramis brama,Animalia,brasem
 VIS_659,HumanObservation,VIS_659,3,verified by experts,Abramis brama,Animalia,brasem
-VIS_660,HumanObservation,VIS_660,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_661,HumanObservation,VIS_661,3,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_662,HumanObservation,VIS_662,2,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_663,HumanObservation,VIS_663,1,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_664,HumanObservation,VIS_664,4,verified by experts,Squalius cephalus,Animalia,kopvoorn
-VIS_665,HumanObservation,VIS_665,4,verified by experts,Squalius cephalus,Animalia,kopvoorn
-VIS_667,HumanObservation,VIS_667,3,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_668,HumanObservation,VIS_668,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_669,HumanObservation,VIS_669,10,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_670,HumanObservation,VIS_670,81,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_671,HumanObservation,VIS_671,1,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_672,HumanObservation,VIS_672,1,verified by experts,Leuciscus idus,Animalia,winde
 VIS_673,HumanObservation,VIS_673,6,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_674,HumanObservation,VIS_674,8,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_675,HumanObservation,VIS_675,3,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_676,HumanObservation,VIS_676,13,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_677,HumanObservation,VIS_677,61,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_678,HumanObservation,VIS_678,15,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_679,HumanObservation,VIS_679,9,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_680,HumanObservation,VIS_680,9,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_681,HumanObservation,VIS_681,8,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
@@ -209,31 +135,13 @@ VIS_684,HumanObservation,VIS_684,4,verified by experts,Leuciscus rutilus,Animali
 VIS_685,HumanObservation,VIS_685,72,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_686,HumanObservation,VIS_686,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
 VIS_687,HumanObservation,VIS_687,1,verified by experts,Abramis brama,Animalia,brasem
-VIS_688,HumanObservation,VIS_688,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_689,HumanObservation,VIS_689,6,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_690,HumanObservation,VIS_690,6,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_691,HumanObservation,VIS_691,1,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_692,HumanObservation,VIS_692,8,verified by experts,Squalius cephalus,Animalia,kopvoorn
-VIS_694,HumanObservation,VIS_694,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_695,HumanObservation,VIS_695,7,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_696,HumanObservation,VIS_696,3,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_697,HumanObservation,VIS_697,2,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_698,HumanObservation,VIS_698,87,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_699,HumanObservation,VIS_699,2,verified by experts,Esox lucius,Animalia,snoek
-VIS_700,HumanObservation,VIS_700,1,verified by experts,Esox lucius,Animalia,snoek
-VIS_701,HumanObservation,VIS_701,1,verified by experts,Tinca tinca,Animalia,zeelt
-VIS_702,HumanObservation,VIS_702,1,verified by experts,Tinca tinca,Animalia,zeelt
 VIS_703,HumanObservation,VIS_703,4,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_704,HumanObservation,VIS_704,1,verified by experts,Cyprinus carpio,Animalia,karper
 VIS_705,HumanObservation,VIS_705,61,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_706,HumanObservation,VIS_706,10,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_707,HumanObservation,VIS_707,21,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_708,HumanObservation,VIS_708,3,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_709,HumanObservation,VIS_709,7,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_710,HumanObservation,VIS_710,21,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_711,HumanObservation,VIS_711,3,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_712,HumanObservation,VIS_712,1,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_713,HumanObservation,VIS_713,14,verified by experts,Squalius cephalus,Animalia,kopvoorn
 VIS_715,HumanObservation,VIS_715,3,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_717,HumanObservation,VIS_717,48,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_718,HumanObservation,VIS_718,5,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
@@ -243,52 +151,25 @@ VIS_728,HumanObservation,VIS_728,145,verified by experts,Gasterosteus aculeatus,
 VIS_729,HumanObservation,VIS_729,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_730,HumanObservation,VIS_730,1,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_731,HumanObservation,VIS_731,27,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_732,HumanObservation,VIS_732,2,verified by experts,Squalius cephalus,Animalia,kopvoorn
-VIS_734,HumanObservation,VIS_734,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_735,HumanObservation,VIS_735,2,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_736,HumanObservation,VIS_736,37,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_737,HumanObservation,VIS_737,1,verified by experts,Tinca tinca,Animalia,zeelt
-VIS_738,HumanObservation,VIS_738,1,verified by experts,Tinca tinca,Animalia,zeelt
 VIS_739,HumanObservation,VIS_739,2,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_740,HumanObservation,VIS_740,24,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_741,HumanObservation,VIS_741,3,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_742,HumanObservation,VIS_742,2,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_743,HumanObservation,VIS_743,1,verified by experts,Squalius cephalus,Animalia,kopvoorn
-VIS_744,HumanObservation,VIS_744,1,verified by experts,Squalius cephalus,Animalia,kopvoorn
-VIS_747,HumanObservation,VIS_747,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_748,HumanObservation,VIS_748,6,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_749,HumanObservation,VIS_749,163,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_750,HumanObservation,VIS_750,85,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_751,HumanObservation,VIS_751,57,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_752,HumanObservation,VIS_752,1,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_753,HumanObservation,VIS_753,3,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_754,HumanObservation,VIS_754,6,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_755,HumanObservation,VIS_755,2,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_756,HumanObservation,VIS_756,2,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_757,HumanObservation,VIS_757,5,verified by experts,Squalius cephalus,Animalia,kopvoorn
-VIS_758,HumanObservation,VIS_758,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_759,HumanObservation,VIS_759,11,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_760,HumanObservation,VIS_760,16,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_761,HumanObservation,VIS_761,160,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_762,HumanObservation,VIS_762,2,verified by experts,Esox lucius,Animalia,snoek
 VIS_763,HumanObservation,VIS_763,31,verified by experts,Abramis brama,Animalia,brasem
 VIS_764,HumanObservation,VIS_764,100,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_765,HumanObservation,VIS_765,122,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_767,HumanObservation,VIS_767,26,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_768,HumanObservation,VIS_768,4,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_769,HumanObservation,VIS_769,30,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
-VIS_770,HumanObservation,VIS_770,20,verified by experts,Squalius cephalus,Animalia,kopvoorn
-VIS_771,HumanObservation,VIS_771,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_772,HumanObservation,VIS_772,2,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_773,HumanObservation,VIS_773,8,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_774,HumanObservation,VIS_774,125,verified by experts,Gobio gobio,Animalia,riviergrondel
 VIS_775,HumanObservation,VIS_775,38,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_777,HumanObservation,VIS_777,65,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_778,HumanObservation,VIS_778,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_780,HumanObservation,VIS_780,1,verified by experts,Esox lucius,Animalia,snoek
 VIS_781,HumanObservation,VIS_781,289,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_791,HumanObservation,VIS_791,33,verified by experts,Alburnus alburnus,Animalia,alver
-VIS_792,HumanObservation,VIS_792,1,verified by experts,Pimephales promelas,Animalia,dikkopelrits
 VIS_793,HumanObservation,VIS_793,15,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_794,HumanObservation,VIS_794,1,verified by experts,Barbatula barbatulus,Animalia,bermpje
 VIS_795,HumanObservation,VIS_795,3,verified by experts,Rhodeus sericeus,Animalia,bittervoorn
@@ -296,17 +177,6 @@ VIS_796,HumanObservation,VIS_796,519,verified by experts,Leuciscus rutilus,Anima
 VIS_797,HumanObservation,VIS_797,6,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
 VIS_798,HumanObservation,VIS_798,5,verified by experts,Abramis brama,Animalia,brasem
 VIS_799,HumanObservation,VIS_799,23,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_800,HumanObservation,VIS_800,14,verified by experts,Carassius auratus gibelio,Animalia,giebel
-VIS_801,HumanObservation,VIS_801,9,verified by experts,Cyprinus carpio,Animalia,karper
-VIS_802,HumanObservation,VIS_802,2,verified by experts,Blicca bjoerkna,Animalia,kolblei
-VIS_803,HumanObservation,VIS_803,6,verified by experts,Squalius cephalus,Animalia,kopvoorn
-VIS_805,HumanObservation,VIS_805,1,verified by experts,Gymnocephalus cernua,Animalia,pos
-VIS_806,HumanObservation,VIS_806,2,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
-VIS_807,HumanObservation,VIS_807,424,verified by experts,Gobio gobio,Animalia,riviergrondel
-VIS_809,HumanObservation,VIS_809,1,verified by experts,Leuciscus leuciscus,Animalia,serpeling
-VIS_810,HumanObservation,VIS_810,2,verified by experts,Leucaspius delineatus,Animalia,vetje
-VIS_811,HumanObservation,VIS_811,1,verified by experts,Leuciscus idus,Animalia,winde
-VIS_812,HumanObservation,VIS_812,2,verified by experts,Tinca tinca,Animalia,zeelt
 VIS_813,HumanObservation,VIS_813,1,verified by experts,Alburnus alburnus,Animalia,alver
 VIS_814,HumanObservation,VIS_814,5,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_816,HumanObservation,VIS_816,1,verified by experts,Rhodeus sericeus,Animalia,bittervoorn
@@ -339,6 +209,136 @@ VIS_868,HumanObservation,VIS_868,1,verified by experts,Leucaspius delineatus,Ani
 VIS_869,HumanObservation,VIS_869,24,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_870,HumanObservation,VIS_870,1,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_871,HumanObservation,VIS_871,214,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_812,HumanObservation,VIS_812,2,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_811,HumanObservation,VIS_811,1,verified by experts,Leuciscus idus,Animalia,winde
+VIS_810,HumanObservation,VIS_810,2,verified by experts,Leucaspius delineatus,Animalia,vetje
+VIS_809,HumanObservation,VIS_809,1,verified by experts,Leuciscus leuciscus,Animalia,serpeling
+VIS_807,HumanObservation,VIS_807,424,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_806,HumanObservation,VIS_806,2,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_805,HumanObservation,VIS_805,1,verified by experts,Gymnocephalus cernua,Animalia,pos
+VIS_803,HumanObservation,VIS_803,6,verified by experts,Squalius cephalus,Animalia,kopvoorn
+VIS_802,HumanObservation,VIS_802,2,verified by experts,Blicca bjoerkna,Animalia,kolblei
+VIS_801,HumanObservation,VIS_801,9,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_800,HumanObservation,VIS_800,14,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_792,HumanObservation,VIS_792,1,verified by experts,Pimephales promelas,Animalia,dikkopelrits
+VIS_780,HumanObservation,VIS_780,1,verified by experts,Esox lucius,Animalia,snoek
+VIS_778,HumanObservation,VIS_778,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_774,HumanObservation,VIS_774,125,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_773,HumanObservation,VIS_773,8,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_772,HumanObservation,VIS_772,2,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_771,HumanObservation,VIS_771,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_770,HumanObservation,VIS_770,20,verified by experts,Squalius cephalus,Animalia,kopvoorn
+VIS_762,HumanObservation,VIS_762,2,verified by experts,Esox lucius,Animalia,snoek
+VIS_761,HumanObservation,VIS_761,160,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_760,HumanObservation,VIS_760,16,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_759,HumanObservation,VIS_759,11,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_758,HumanObservation,VIS_758,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_757,HumanObservation,VIS_757,5,verified by experts,Squalius cephalus,Animalia,kopvoorn
+VIS_756,HumanObservation,VIS_756,2,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_755,HumanObservation,VIS_755,2,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_749,HumanObservation,VIS_749,163,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_748,HumanObservation,VIS_748,6,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_747,HumanObservation,VIS_747,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_744,HumanObservation,VIS_744,1,verified by experts,Squalius cephalus,Animalia,kopvoorn
+VIS_743,HumanObservation,VIS_743,1,verified by experts,Squalius cephalus,Animalia,kopvoorn
+VIS_738,HumanObservation,VIS_738,1,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_737,HumanObservation,VIS_737,1,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_736,HumanObservation,VIS_736,37,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_735,HumanObservation,VIS_735,2,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_734,HumanObservation,VIS_734,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_732,HumanObservation,VIS_732,2,verified by experts,Squalius cephalus,Animalia,kopvoorn
+VIS_713,HumanObservation,VIS_713,14,verified by experts,Squalius cephalus,Animalia,kopvoorn
+VIS_712,HumanObservation,VIS_712,1,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_711,HumanObservation,VIS_711,3,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_704,HumanObservation,VIS_704,1,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_702,HumanObservation,VIS_702,1,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_701,HumanObservation,VIS_701,1,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_700,HumanObservation,VIS_700,1,verified by experts,Esox lucius,Animalia,snoek
+VIS_699,HumanObservation,VIS_699,2,verified by experts,Esox lucius,Animalia,snoek
+VIS_698,HumanObservation,VIS_698,87,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_697,HumanObservation,VIS_697,2,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_696,HumanObservation,VIS_696,3,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_695,HumanObservation,VIS_695,7,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_694,HumanObservation,VIS_694,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_692,HumanObservation,VIS_692,8,verified by experts,Squalius cephalus,Animalia,kopvoorn
+VIS_691,HumanObservation,VIS_691,1,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_690,HumanObservation,VIS_690,6,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_689,HumanObservation,VIS_689,6,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_688,HumanObservation,VIS_688,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_678,HumanObservation,VIS_678,15,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_677,HumanObservation,VIS_677,61,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_672,HumanObservation,VIS_672,1,verified by experts,Leuciscus idus,Animalia,winde
+VIS_671,HumanObservation,VIS_671,1,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_670,HumanObservation,VIS_670,81,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_669,HumanObservation,VIS_669,10,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_668,HumanObservation,VIS_668,1,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_667,HumanObservation,VIS_667,3,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_665,HumanObservation,VIS_665,4,verified by experts,Squalius cephalus,Animalia,kopvoorn
+VIS_664,HumanObservation,VIS_664,4,verified by experts,Squalius cephalus,Animalia,kopvoorn
+VIS_663,HumanObservation,VIS_663,1,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_662,HumanObservation,VIS_662,2,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_661,HumanObservation,VIS_661,3,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_660,HumanObservation,VIS_660,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_652,HumanObservation,VIS_652,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_638,HumanObservation,VIS_638,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_632,HumanObservation,VIS_632,104,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_623,HumanObservation,VIS_623,1,verified by experts,Esox lucius,Animalia,snoek
+VIS_621,HumanObservation,VIS_621,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_615,HumanObservation,VIS_615,3,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_614,HumanObservation,VIS_614,1,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_613,HumanObservation,VIS_613,1,verified by experts,Oncorhynchus mykiss,Animalia,regenboogforel
+VIS_611,HumanObservation,VIS_611,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_603,HumanObservation,VIS_603,1,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_599,HumanObservation,VIS_599,1,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_598,HumanObservation,VIS_598,2,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_597,HumanObservation,VIS_597,3,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_596,HumanObservation,VIS_596,1,verified by experts,Oncorhynchus mykiss,Animalia,regenboogforel
+VIS_594,HumanObservation,VIS_594,6,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_593,HumanObservation,VIS_593,2,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_590,HumanObservation,VIS_590,39,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_582,HumanObservation,VIS_582,2,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_581,HumanObservation,VIS_581,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_521,HumanObservation,VIS_521,6,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_519,HumanObservation,VIS_519,3,verified by experts,Leuciscus leuciscus,Animalia,serpeling
+VIS_517,HumanObservation,VIS_517,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_511,HumanObservation,VIS_511,3,verified by experts,Leuciscus leuciscus,Animalia,serpeling
+VIS_501,HumanObservation,VIS_501,1,verified by experts,Leuciscus leuciscus,Animalia,serpeling
+VIS_500,HumanObservation,VIS_500,2,verified by experts,Carassius auratus auratus,Animalia,goudvis
+VIS_494,HumanObservation,VIS_494,11,verified by experts,Leuciscus leuciscus,Animalia,serpeling
+VIS_489,HumanObservation,VIS_489,2,verified by experts,Leuciscus leuciscus,Animalia,serpeling
+VIS_479,HumanObservation,VIS_479,4,verified by experts,Leuciscus leuciscus,Animalia,serpeling
+VIS_476,HumanObservation,VIS_476,2,verified by experts,Leuciscus leuciscus,Animalia,serpeling
+VIS_473,HumanObservation,VIS_473,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_470,HumanObservation,VIS_470,9,verified by experts,Leuciscus leuciscus,Animalia,serpeling
+VIS_468,HumanObservation,VIS_468,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_465,HumanObservation,VIS_465,3,verified by experts,Carassius auratus auratus,Animalia,goudvis
+VIS_462,HumanObservation,VIS_462,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_458,HumanObservation,VIS_458,4,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_456,HumanObservation,VIS_456,16,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_455,HumanObservation,VIS_455,3,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_449,HumanObservation,VIS_449,3,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_447,HumanObservation,VIS_447,1,verified by experts,Carassius auratus auratus,Animalia,goudvis
+VIS_445,HumanObservation,VIS_445,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_441,HumanObservation,VIS_441,2,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_440,HumanObservation,VIS_440,25,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_437,HumanObservation,VIS_437,4,verified by experts,Carassius auratus auratus,Animalia,goudvis
+VIS_436,HumanObservation,VIS_436,2,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_425,HumanObservation,VIS_425,45,verified by experts,Gobio gobio,Animalia,riviergrondel
+VIS_424,HumanObservation,VIS_424,6,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_423,HumanObservation,VIS_423,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_407,HumanObservation,VIS_407,92,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_406,HumanObservation,VIS_406,3,verified by experts,Blicca bjoerkna,Animalia,kolblei
+VIS_405,HumanObservation,VIS_405,1,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_401,HumanObservation,VIS_401,3,verified by experts,Carassius auratus gibelio,Animalia,giebel
+VIS_329,HumanObservation,VIS_329,8,verified by experts,Esox lucius,Animalia,snoek
+VIS_327,HumanObservation,VIS_327,2,verified by experts,Leucaspius delineatus,Animalia,vetje
+VIS_326,HumanObservation,VIS_326,1,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_325,HumanObservation,VIS_325,20,verified by experts,Blicca bjoerkna,Animalia,kolblei
+VIS_323,HumanObservation,VIS_323,2,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
+VIS_315,HumanObservation,VIS_315,2,verified by experts,Esox lucius,Animalia,snoek
+VIS_314,HumanObservation,VIS_314,1,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_313,HumanObservation,VIS_313,2,verified by experts,Blicca bjoerkna,Animalia,kolblei
+VIS_312,HumanObservation,VIS_312,3,verified by experts,Rutilus erythrophthalmus,Animalia,rietvoorn
 VIS_872,HumanObservation,VIS_872,243,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_873,HumanObservation,VIS_873,11,verified by experts,Leuciscus rutilus,Animalia,blankvoorn
 VIS_874,HumanObservation,VIS_874,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
@@ -15026,27 +15026,6 @@ VIS_19137,HumanObservation,VIS_19137,53,verified by experts,Pseudorasbora parva,
 VIS_19139,HumanObservation,VIS_19139,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_19140,HumanObservation,VIS_19140,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_19141,HumanObservation,VIS_19141,1,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
-VIS_19142,HumanObservation,VIS_19142,1,verified by experts,Pleuronectes platessa,Animalia,schol
-VIS_19143,HumanObservation,VIS_19143,1,verified by experts,Pleuronectes platessa,Animalia,schol
-VIS_19144,HumanObservation,VIS_19144,1,verified by experts,Pleuronectes platessa,Animalia,schol
-VIS_19145,HumanObservation,VIS_19145,1,verified by experts,Pleuronectes platessa,Animalia,schol
-VIS_19146,HumanObservation,VIS_19146,1,verified by experts,Pleuronectes platessa,Animalia,schol
-VIS_19147,HumanObservation,VIS_19147,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19148,HumanObservation,VIS_19148,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19149,HumanObservation,VIS_19149,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19150,HumanObservation,VIS_19150,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19151,HumanObservation,VIS_19151,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19152,HumanObservation,VIS_19152,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19153,HumanObservation,VIS_19153,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19154,HumanObservation,VIS_19154,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19155,HumanObservation,VIS_19155,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19156,HumanObservation,VIS_19156,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19157,HumanObservation,VIS_19157,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19158,HumanObservation,VIS_19158,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19159,HumanObservation,VIS_19159,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19160,HumanObservation,VIS_19160,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19161,HumanObservation,VIS_19161,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
-VIS_19162,HumanObservation,VIS_19162,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
 VIS_19167,HumanObservation,VIS_19167,1,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_19168,HumanObservation,VIS_19168,1,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_19169,HumanObservation,VIS_19169,1,verified by experts,Perca fluviatilis,Animalia,baars
@@ -15079,6 +15058,27 @@ VIS_19195,HumanObservation,VIS_19195,1,verified by experts,Abramis brama,Animali
 VIS_19196,HumanObservation,VIS_19196,1,verified by experts,Abramis brama,Animalia,brasem
 VIS_19197,HumanObservation,VIS_19197,1,verified by experts,Abramis brama,Animalia,brasem
 VIS_19198,HumanObservation,VIS_19198,1,verified by experts,Abramis brama,Animalia,brasem
+VIS_19162,HumanObservation,VIS_19162,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19161,HumanObservation,VIS_19161,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19160,HumanObservation,VIS_19160,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19159,HumanObservation,VIS_19159,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19158,HumanObservation,VIS_19158,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19157,HumanObservation,VIS_19157,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19156,HumanObservation,VIS_19156,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19155,HumanObservation,VIS_19155,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19154,HumanObservation,VIS_19154,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19153,HumanObservation,VIS_19153,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19152,HumanObservation,VIS_19152,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19151,HumanObservation,VIS_19151,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19150,HumanObservation,VIS_19150,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19149,HumanObservation,VIS_19149,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19148,HumanObservation,VIS_19148,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19147,HumanObservation,VIS_19147,1,verified by experts,Pomatoschistus minutus,Animalia,dikkopje
+VIS_19146,HumanObservation,VIS_19146,1,verified by experts,Pleuronectes platessa,Animalia,schol
+VIS_19145,HumanObservation,VIS_19145,1,verified by experts,Pleuronectes platessa,Animalia,schol
+VIS_19144,HumanObservation,VIS_19144,1,verified by experts,Pleuronectes platessa,Animalia,schol
+VIS_19143,HumanObservation,VIS_19143,1,verified by experts,Pleuronectes platessa,Animalia,schol
+VIS_19142,HumanObservation,VIS_19142,1,verified by experts,Pleuronectes platessa,Animalia,schol
 VIS_19199,HumanObservation,VIS_19199,1,verified by experts,Abramis brama,Animalia,brasem
 VIS_19200,HumanObservation,VIS_19200,1,verified by experts,Abramis brama,Animalia,brasem
 VIS_19201,HumanObservation,VIS_19201,1,verified by experts,Abramis brama,Animalia,brasem
