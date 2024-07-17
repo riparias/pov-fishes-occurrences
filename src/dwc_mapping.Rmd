@@ -116,7 +116,7 @@ dwc_mof_sql <- glue::glue_sql(
   .con = con
 )
 dwc_mof <- DBI::dbGetQuery(con, dwc_mof_sql)%>% 
-  arrange(as.double(gsub("VIS_", "", eventID)))
+  dplyr::arrange(as.double(gsub("VIS_", "", eventID)))
 ```
 
 # Save data to CSV
