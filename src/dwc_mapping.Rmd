@@ -91,7 +91,7 @@ dwc_event_sql <- glue::glue_sql(
 )
 dwc_event <- 
   DBI::dbGetQuery(con, dwc_event_sql) %>%
-  arrange(as.double(gsub("VIS_", "", eventID)))
+  dplyr::arrange(as.double(gsub("VIS_", "", eventID)))
 ```
 
 Create [Occurrence](https://rs.gbif.org/core/dwc_occurrence_2022-02-02.xml) extension:
@@ -104,7 +104,7 @@ dwc_occurrence_sql <- glue::glue_sql(
 )
 dwc_occurrence <- 
   DBI::dbGetQuery(con, dwc_occurrence_sql) %>% 
-  arrange(as.double(gsub("VIS_", "", occurrenceID)))
+  dplyr::arrange(as.double(gsub("VIS_", "", occurrenceID)))
 message("DONE")
 ```
 
