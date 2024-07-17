@@ -76,7 +76,7 @@ jobs:
           git branch --show-current
 
       - name: Create pull request
-        uses: devops-infra/action-pull-request@v0.4.2
+        uses: devops-infra/action-pull-request@v0.5.5
         with:
           github_token: ${{ secrets.WORKFLOWS }}
           target_branch: main
