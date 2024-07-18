@@ -89,7 +89,9 @@ dwc_event_sql <- glue::glue_sql(
   readr::read_file(here::here("sql", "dwc_event.sql")),
   .con = con
 )
-dwc_event <- DBI::dbGetQuery(con, dwc_event_sql)
+dwc_event <- 
+  DBI::dbGetQuery(con, dwc_event_sql) %>%
+  dplyr::arrange(as.double(gsub("VIS_", "", eventID)))
 ```
 
 Create [Occurrence](https://rs.gbif.org/core/dwc_occurrence_2022-02-02.xml) extension:
@@ -100,7 +102,9 @@ dwc_occurrence_sql <- glue::glue_sql(
   readr::read_file(here::here("sql", "dwc_occurrence.sql")), 
   .con = con
 )
-dwc_occurrence <- DBI::dbGetQuery(con, dwc_occurrence_sql)
+dwc_occurrence <- 
+  DBI::dbGetQuery(con, dwc_occurrence_sql) %>% 
+  dplyr::arrange(as.double(gsub("VIS_", "", occurrenceID)))
 message("DONE")
 ```
 
@@ -111,7 +115,8 @@ dwc_mof_sql <- glue::glue_sql(
   readr::read_file(here::here("sql", "dwc_mof.sql")), 
   .con = con
 )
-dwc_mof <- DBI::dbGetQuery(con, dwc_mof_sql)
+dwc_mof <- DBI::dbGetQuery(con, dwc_mof_sql)%>% 
+  dplyr::arrange(as.double(gsub("VIS_", "", eventID)))
 ```
 
 # Save data to CSV
