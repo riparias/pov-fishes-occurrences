@@ -11,7 +11,6 @@ SELECT
   'https://doi.org/10.15468/ap9ejd'     AS datasetID,
   'POV'                                 AS institutionCode,
   'Monitoring of fishes and crustaceans by Province East Flanders in Flanders, Belgium' AS datasetName,
-  'HumanObservation'                    AS basisOfRecord,
   o."SamplingProtocol"                  AS samplingProtocol, -- targeted monitoring
 -- EVENT
   o."ObservationIdentifier"             AS eventID,
