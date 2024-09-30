@@ -21,7 +21,6 @@ testthat::test_that("Right columns in right order: event core", {
     "datasetID",
     "institutionCode",
     "datasetName",
-    "basisOfRecord",
     "samplingProtocol",
     "eventID",
     "eventDate",
