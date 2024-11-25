@@ -156,11 +156,10 @@ testthat::test_that("scientificName is never NA and one of the list", {
     "Alburnus alburnus",
     "Ameiurus nebulosus",
     "Anarhichas lupus",
-    "Aspius aspius",
-    "Barbatula barbatulus",
+    "Barbatula barbatula",
     "Blicca bjoerkna",
     "Carassius auratus auratus",
-    "Carassius auratus gibelio",
+    "Carassius gibelio",
     "Carassius carassius",
     "Chelon ramada",
     "Ctenopharyngodon idella",
@@ -175,9 +174,9 @@ testthat::test_that("scientificName is never NA and one of the list", {
     "Hypophthalmichthys molitrix",
     "Lepomis gibbosus",
     "Leucaspius delineatus",
+    "Leuciscus aspius",
     "Leuciscus idus",
     "Leuciscus leuciscus",
-    "Leuciscus rutilus",
     "Lithobates catesbeianus",
     "Neogobius melanostomus",
     "Oncorhynchus mykiss",
@@ -192,14 +191,12 @@ testthat::test_that("scientificName is never NA and one of the list", {
     "Pseudorasbora parva",
     "Pungitius pungitius",
     "Rhodeus sericeus",
-    "Rutilus erythrophthalmus",
     "Rutilus rutilus",
+    "Sander lucioperca",
     "Scardinius erythrophthalmus",
     "Solea solea",
     "Sprattus sprattus",
     "Squalius cephalus",
-    "Stizostedion lucioperca",
-    "Stizostedion lucoperca",
     "Tinca tinca",
     "Trisopterus luscus",
     "Umbra pygmaea"
@@ -407,3 +404,4 @@ testthat::test_that(
     )
   }
 )
+
