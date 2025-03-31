@@ -194,6 +194,7 @@ testthat::test_that("scientificName is never NA and one of the list", {
     "Rutilus rutilus",
     "Sander lucioperca",
     "Scardinius erythrophthalmus",
+    "Silurus glanis",
     "Solea solea",
     "Sprattus sprattus",
     "Squalius cephalus",
