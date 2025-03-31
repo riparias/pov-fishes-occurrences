@@ -60,6 +60,7 @@ SELECT
     WHEN o."ScientificName" = 'Rutilus rutilus' THEN 'Rutilus rutilus'
     WHEN o."ScientificName" = 'Sander lucioperca' THEN 'Sander lucioperca'
     WHEN o."ScientificName" = 'Scardinius erythrophthalmus' THEN 'Scardinius erythrophthalmus'
+    WHEN o."ScientificName" = 'Silurus glanis' THEN 'Silurus glanis'
     WHEN o."ScientificName" = 'Solea solea' THEN 'Solea solea'
     WHEN o."ScientificName" = 'Sprattus sprattus' THEN 'Sprattus sprattus'
     WHEN o."ScientificName" = 'Squalius cephalus' THEN 'Squalius cephalus'
