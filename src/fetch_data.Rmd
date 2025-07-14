@@ -2,6 +2,7 @@
 title: "Fetch invasive alien plants data from POV"
 author:
 - Damiano Oldoni
+- Sanne Govaert
 date: "`r Sys.Date()`"
 output:
   html_document:
@@ -31,7 +32,7 @@ library(here) # to work with paths
 WFS link:
 
 ```{r link}
-wfs <- "http://geodiensten.oost-vlaanderen.be/arcgis/services/MIL/Waarnemingen_Public/MapServer/WFSServer"
+wfs <- "https://gis.oost-vlaanderen.be/server/services/GEODATA/Geodata_Oost_Vlaanderen/MapServer/WFSServer"
 ```
 
 Create WFS client:
@@ -47,13 +48,13 @@ layers <- pov_client$getFeatureTypes(pretty = TRUE)
 print(layers)
 ```
 
-Request data from layer `Waarnemingen_Public:Vissen_en_crustacea`:
+Request data from layer `Geodata_Oost_Vlaanderen:Waarnemingen_vissen_en_crustacea`:
 
 ```{r request}
 url <- httr::parse_url(wfs)
 url$query <- list(service = "wfs",
                   request = "GetFeature",
-                  typename = "Waarnemingen_Public:Vissen_en_crustacea",
+                  typename = "Geodata_Oost_Vlaanderen:Waarnemingen_vissen_en_crustacea",
                   outputFormat = "CSV"
 )
 request <- httr::build_url(url)
