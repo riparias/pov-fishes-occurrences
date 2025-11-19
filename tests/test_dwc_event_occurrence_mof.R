@@ -156,6 +156,7 @@ testthat::test_that("scientificName is never NA and one of the list", {
     "Alburnus alburnus",
     "Ameiurus nebulosus",
     "Anarhichas lupus",
+    "Atherina boyeri",
     "Barbatula barbatula",
     "Blicca bjoerkna",
     "Carassius auratus auratus",
@@ -199,6 +200,7 @@ testthat::test_that("scientificName is never NA and one of the list", {
     "Sprattus sprattus",
     "Squalius cephalus",
     "Tinca tinca",
+    "Tridentiger bifasciatus",
     "Trisopterus luscus",
     "Umbra pygmaea"
   )
@@ -237,6 +239,7 @@ testthat::test_that(
       "goudvis",
       "graskarper",
       "karper",
+      "kleine koornaarvis",
       "kolblei",
       "kopvoorn",
       "kroeskarper",
@@ -248,6 +251,7 @@ testthat::test_that(
       "roofblei",
       "schol",
       "serpeling",
+      "shimofurigrondel",
       "snoekbaars",
       "snoek",
       "spiering",

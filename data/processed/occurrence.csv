@@ -4189,6 +4189,12 @@ VIS_5563,HumanObservation,VIS_5563,5,verified by experts,Leuciscus idus,Animalia
 VIS_5564,HumanObservation,VIS_5564,1,verified by experts,Rhodeus sericeus,Animalia,bittervoorn
 VIS_5565,HumanObservation,VIS_5565,1,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_5567,HumanObservation,VIS_5567,2,verified by experts,Lepomis gibbosus,Animalia,zonnebaars
+VIS_5568,HumanObservation,VIS_5568,8,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_5569,HumanObservation,VIS_5569,30,verified by experts,Abramis brama,Animalia,brasem
+VIS_5570,HumanObservation,VIS_5570,1,verified by experts,Blicca bjoerkna,Animalia,kolblei
+VIS_5571,HumanObservation,VIS_5571,1,verified by experts,Tinca tinca,Animalia,zeelt
+VIS_5572,HumanObservation,VIS_5572,2,verified by experts,Cyprinus carpio,Animalia,karper
+VIS_5573,HumanObservation,VIS_5573,1,verified by experts,Leuciscus idus,Animalia,winde
 VIS_5574,HumanObservation,VIS_5574,637,verified by experts,Rutilus rutilus,Animalia,blankvoorn
 VIS_5575,HumanObservation,VIS_5575,8,verified by experts,Scardinius erythrophthalmus,Animalia,rietvoorn
 VIS_5576,HumanObservation,VIS_5576,469,verified by experts,Abramis brama,Animalia,brasem
@@ -15442,6 +15448,19 @@ VIS_19634,HumanObservation,VIS_19634,1,verified by experts,Barbatula barbatula,A
 VIS_19635,HumanObservation,VIS_19635,29,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
 VIS_19636,HumanObservation,VIS_19636,1,verified by experts,Pungitius pungitius,Animalia,tiendoornige stekelbaars
 VIS_19637,HumanObservation,VIS_19637,8,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
+VIS_19638,HumanObservation,VIS_19638,1,verified by experts,Perca fluviatilis,Animalia,baars
+VIS_19639,HumanObservation,VIS_19639,1,verified by experts,Carassius gibelio,Animalia,giebel
+VIS_19640,HumanObservation,VIS_19640,1,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_19641,HumanObservation,VIS_19641,1,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_19642,HumanObservation,VIS_19642,1,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_19643,HumanObservation,VIS_19643,1,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_19644,HumanObservation,VIS_19644,1,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_19645,HumanObservation,VIS_19645,1,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_19646,HumanObservation,VIS_19646,1,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_19647,HumanObservation,VIS_19647,1,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_19648,HumanObservation,VIS_19648,1,verified by experts,Rutilus rutilus,Animalia,blankvoorn
+VIS_19649,HumanObservation,VIS_19649,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
+VIS_19650,HumanObservation,VIS_19650,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
 VIS_19651,HumanObservation,VIS_19651,1,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_19652,HumanObservation,VIS_19652,1,verified by experts,Perca fluviatilis,Animalia,baars
 VIS_19653,HumanObservation,VIS_19653,1,verified by experts,Perca fluviatilis,Animalia,baars
@@ -21995,3 +22014,5 @@ VIS_27544,HumanObservation,VIS_27544,1,verified by experts,Blicca bjoerkna,Anima
 VIS_27545,HumanObservation,VIS_27545,1,verified by experts,Blicca bjoerkna,Animalia,kolblei
 VIS_27546,HumanObservation,VIS_27546,1,verified by experts,Blicca bjoerkna,Animalia,kolblei
 VIS_27547,HumanObservation,VIS_27547,1,verified by experts,Abramis brama,Animalia,brasem
+VIS_27548,HumanObservation,VIS_27548,1,verified by experts,Atherina boyeri,Animalia,kleine koornaarvis
+VIS_27549,HumanObservation,VIS_27549,81,verified by experts,Tridentiger bifasciatus,Animalia,shimofurigrondel
