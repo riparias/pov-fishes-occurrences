@@ -59036,7 +59036,6 @@ VIS_26681,sampling distance,100.0,meter
 VIS_26681,weight,6.60,g
 VIS_26682,sampling distance,100.0,meter
 VIS_26682,weight,2.00,g
-VIS_26683,length,4.0,cm
 VIS_26683,sampling distance,100.0,meter
 VIS_26683,weight,5.50,g
 VIS_26684,length,18.0,cm
@@ -59166,7 +59165,6 @@ VIS_26725,weight,21.30,g
 VIS_26726,length,4.2,cm
 VIS_26726,sampling distance,100.0,meter
 VIS_26726,weight,0.50,g
-VIS_26727,length,4.0,cm
 VIS_26727,sampling distance,100.0,meter
 VIS_26727,weight,9.60,g
 VIS_26728,length,14.5,cm
@@ -59247,7 +59245,7 @@ VIS_26761,weight,0.90,g
 VIS_26775,length,36.0,cm
 VIS_26775,sampling distance,200.0,meter
 VIS_26775,weight,619.00,g
-VIS_26776,length,235.0,cm
+VIS_26776,length,23.5,cm
 VIS_26776,sampling distance,200.0,meter
 VIS_26776,weight,122.00,g
 VIS_26777,length,4.0,cm
