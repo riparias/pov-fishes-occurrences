@@ -60887,3 +60887,7 @@ VIS_27719,sampling distance,100.0,meter
 VIS_27723,sampling distance,100.0,meter
 VIS_27724,sampling distance,150.0,meter
 VIS_27725,sampling distance,300.0,meter
+VIS_27727,sampling distance,150.0,meter
+VIS_27727,weight,19.80,g
+VIS_27728,sampling distance,150.0,meter
+VIS_27728,weight,153.50,g
