@@ -21311,9 +21311,8 @@ VIS_26606,HumanObservation,VIS_26606,1,verified by experts,Pseudorasbora parva,A
 VIS_26607,HumanObservation,VIS_26607,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
 VIS_26608,HumanObservation,VIS_26608,3,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
 VIS_26609,HumanObservation,VIS_26609,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
-VIS_26610,HumanObservation,VIS_26610,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
+VIS_26610,HumanObservation,VIS_26610,2,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
 VIS_26611,HumanObservation,VIS_26611,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
-VIS_26612,HumanObservation,VIS_26612,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
 VIS_26613,HumanObservation,VIS_26613,1,verified by experts,Esox lucius,Animalia,snoek
 VIS_26614,HumanObservation,VIS_26614,1,verified by experts,Esox lucius,Animalia,snoek
 VIS_26615,HumanObservation,VIS_26615,1,verified by experts,Pseudorasbora parva,Animalia,blauwbandgrondel
@@ -22174,3 +22173,5 @@ VIS_27722,HumanObservation,VIS_27722,1,verified by experts,Rhodeus sericeus,Anim
 VIS_27723,HumanObservation,VIS_27723,1,verified by experts,Lepomis gibbosus,Animalia,zonnebaars
 VIS_27724,HumanObservation,VIS_27724,1,verified by experts,Pungitius pungitius,Animalia,tiendoornige stekelbaars
 VIS_27725,HumanObservation,VIS_27725,1,verified by experts,Leucaspius delineatus,Animalia,vetje
+VIS_27727,HumanObservation,VIS_27727,25,verified by experts,Gasterosteus aculeatus,Animalia,driedoornige stekelbaars
+VIS_27728,HumanObservation,VIS_27728,22,verified by experts,Gobio gobio,Animalia,riviergrondel
